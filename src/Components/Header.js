@@ -1,10 +1,11 @@
 import React from "react";
-import LogoXL from "./LogoXL";
+import BigLogo from "./LogoXL";
+
 
 const Header = () => {
   return (
     <div className= "containerHeader">
-      <LogoXL/>
+      <BigLogo/>
       <div className="navbar">
         <nav>
           <a href="">  Red solidaria </a>
