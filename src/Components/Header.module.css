@@ -1,35 +1,36 @@
-
-.containerHeader{
-display: flex;
-flex-flow:column ;
-align-items: center;
-height: 100%;
+.containerHeader {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
 }
 
-.navbar{
-    flex: 5 1 auto; 
-    height: 30px;
-
+.logonav {
+  display: flex;
+  flex-flow: row;
 }
 
-.BtnDonar{
-    flex: 1 1 auto;
-    height: 30px; 
+.navbar a {
+  flex: 5 1 auto;
+  height: 30px;
 
-}
-.boxtextprincipal{
-display: flex;
-flex-flow: column nowrap;
-
-
-}
-.logonav{
-display: flex;
-flex-flow: row;
-
-
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
+.BtnDonar {
+  flex: 1 1 auto;
 
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #ff5920;
 
+  height: 45px;
+  width: 180px;
 
+  margin-left: 20px;
+}

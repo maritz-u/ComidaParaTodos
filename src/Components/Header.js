@@ -18,24 +18,11 @@ const Header = () => {
             <a href="">  Se parte de la red </a>
           </nav>
         </div>
-        <div className={styles.BtnDonar}>
-          <button>Dona un almuerzo</button>
-          <button>¿Necesitas Trabajo?</button>
+        <div>
+          <button className={styles.BtnDonar}>Dona un almuerzo</button>
+          <button className={styles.BtnDonar}>¿Necesitas Trabajo?</button>
         </div>
       </div>
-      <div className={styles.boxtextprincipal}>
-
-        <h3>-La mejor receta para un mejor país-</h3>
-
-        <h1>COMBATAMOS JUNTOS EL HAMBRE EN CHILE</h1>
-      </div>
-      <div className={styles.boxbuttonsprincipal}>
-        <button>Soy cuidadano y quiero donar</button>
-        <button>Soy una Institución pública o empresa y quiero ayuda </button>
-        <button>Soy de un restaurant, productor o transportista y necesito trabajo</button>
-        <button>Vivo en una comunidad vulnerable y necesito acceso a alimentación</button>
-      </div>
-
     </div>
   );
 };
