@@ -1,11 +1,11 @@
 import React from "react";
-import LogoXL from "../images/logocolorXL.png";
-
+import LogoXL from "../img/logocolorXL.png";
+import  styles from './LogoXL.module.css';
 const BigLogo = () => {
     return(
         
-        <div className= "LogoXL">
-            <img src={LogoXL}></img>
+        <div className={styles.LogoXL}>
+            <img src={LogoXL} ></img>
      
         </div>
         
