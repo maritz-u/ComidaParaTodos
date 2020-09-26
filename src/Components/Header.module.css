@@ -1,0 +1,35 @@
+
+.containerHeader{
+display: flex;
+flex-flow:column ;
+align-items: center;
+height: 100%;
+}
+
+.navbar{
+    flex: 5 1 auto; 
+    height: 30px;
+
+}
+
+.BtnDonar{
+    flex: 1 1 auto;
+    height: 30px; 
+
+}
+.boxtextprincipal{
+display: flex;
+flex-flow: column nowrap;
+
+
+}
+.logonav{
+display: flex;
+flex-flow: row;
+
+
+}
+
+
+
+
