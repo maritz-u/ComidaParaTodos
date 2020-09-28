@@ -1,36 +1,43 @@
-.containerHeader {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  height: 100%;
-}
+    .containerHeader {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      height: 100%;
+    }
 
-.logonav {
-  display: flex;
-  flex-flow: row;
-}
+    .logonav {
+      display: flex;
+      flex-flow: row;
+    }
 
-.navbar a {
-  flex: 5 1 auto;
-  height: 30px;
+    .navbar a {
+      flex: 5 1 auto;
+      height: 30px;
+      color: #ffffff;
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none;
+    }
 
-  color: #ffffff;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-}
 
-.BtnDonar {
-  flex: 1 1 auto;
+    .BtnDonar {
+      flex: 1 1 auto;
+      filter: opacity(0.9);
+      font-family: "Montserrat", sans-serif;
+      border: none;
+      border-radius: 6px;
+      color: #ffffff;
+      background-color: #ff5920;
+      height: 45px;
+      width: 180px;
+      margin-left: 20px;
+    }
 
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 6px;
-  color: #ffffff;
-  background-color: #ff5920;
+    .BtnDonar a {
+      color: #ffffff;
+      text-decoration: none;
+    }
 
-  height: 45px;
-  width: 180px;
-
-  margin-left: 20px;
-}
+    .BtnDonar:hover {
+     background-color: blueviolet;
+    }

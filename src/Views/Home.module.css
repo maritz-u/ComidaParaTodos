@@ -1,41 +1,45 @@
-.containerFirstView {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-  }
-  .boxtextprincipal{
-      display: flex;
-      justify-content: center;
+    .containerFirstView {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .boxtextprincipal{
+        display: flex;
+        justify-content: center;
 
-  }
-  .boxtextprincipal h1{
-      color: #ffffff;
-      height: 20px;
-      width: 100%;
-      font-family: "Montserrat", sans-serif;    
-  }
-  
-  .boxtextprincipal h3{
-      font-family: 'Lora', serif;
-      font-size: 24px;
-      color: #ffffff;
-      height:auto;
-      width: 748px;
-      margin-left: 20%;
-  }
-  .boxBotonesredondos{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 15%;
-  }
-  .boxbuttonsprincipal{
-      color: #333333; 
-      background-color: #ffffff;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
+    }
+    .boxtextprincipal h1{
+        color: #ffffff;
+        height: 20px;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;    
+    }
+    
+    .boxtextprincipal h3{
+        font-family: 'Lora', serif;
+        font-size: 24px;
+        color: #ffffff;
+        height:auto;
+        width: 748px;
+        margin-left: 20%;
+    }
+    .boxBotonesredondos{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15%;
+    }
 
-      width: 150px;
-      height: 150px;
-      border-radius: 80px;
-      border: none;
-  }
+    .boxbuttonsprincipal{
+        color: #333333; 
+        background-color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        border: none;
+    }
+
+    .boxbuttonsprincipal:hover{
+        background-color: rgb(240, 161, 71);
+    } 
