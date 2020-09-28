@@ -27,20 +27,20 @@ const Home = () => {
       </div>
 
       <div className={styles.boxBotonesredondos}>
-        <button className={styles.boxbuttonsprincipal} >
+        <button className={styles.boxbuttonsprincipal1} >
           Soy cuidadano y quiero donar
         </button>
         
        
-        <button className={styles.boxbuttonsprincipal}>
-          Soy una Institución pública o empresa y quiero ayuda{" "}
+        <button className={styles.boxbuttonsprincipal2}>
+          Soy una Institución pública o empresa y quiero ayuda
         </button>
         
-        <button className={styles.boxbuttonsprincipal}>
+        <button className={styles.boxbuttonsprincipal3}>
           Soy de un restaurant, productor o transportista y necesito trabajo
         </button>
        
-        <button className={styles.boxbuttonsprincipal}>
+        <button className={styles.boxbuttonsprincipal4}>
           Vivo en una comunidad vulnerable y necesito acceso a alimentación
         </button>
         </div>
