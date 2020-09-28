@@ -1,10 +1,10 @@
 import React from "react";
 import BotonFlotante from "../Components/BotonCompartirDonar";
 import styles from "../Views/Home.module.css";
-import icoCorazon from '../img/corazonIconW.png';
-import icoEmpresa from '../img/empresaIconW.png';
-import icoTrabajo from '../img/TrabajoIconW.png';
-import icoAyuda from '../img/manoIconW.png';
+import icoCorazon from "../img/corazonIconW.png";
+import icoEmpresa from "../img/empresaIconW.png";
+import icoTrabajo from "../img/TrabajoIconW.png";
+import icoAyuda from "../img/manoIconW.png";
 
 const Home = () => {
   return (
@@ -19,13 +19,27 @@ const Home = () => {
         <h3> - Selecciona tu rol y súmate a nuestra red -</h3>
       </div>
       <div className={styles.contenedorIconosBoton}>
-      <div className={styles.icones}>
-        <img src={icoCorazon} className={styles.imgIcon} ></img>
-        <img src={icoEmpresa} className={styles.imgIcon}></img>
-        <img src={icoTrabajo} className={styles.imgIcon}></img>
-        <img src={icoAyuda} className={styles.imgIcon}></img>
-      </div>
+        <div className={styles.icones}>
+          <img src={icoCorazon} className={styles.imgIcon}></img>
+          <img src={icoEmpresa} className={styles.imgIcon}></img>
+          <img src={icoTrabajo} className={styles.imgIcon}></img>
+          <img src={icoAyuda} className={styles.imgIcon}></img>
+        </div>
 
+        <div className={styles.boxBotonesredondos}>
+          <button className={styles.boxbuttonsprincipal}>
+            Soy cuidadano y quiero donar
+          </button>
+
+          <button className={styles.boxbuttonsprincipal}>
+            Soy una Institución pública o empresa y quiero ayuda{" "}
+          </button>
+
+          <button className={styles.boxbuttonsprincipal}>
+            Soy de un restaurant, productor o transportista y necesito trabajo
+          </button>
+
+<<<<<<< HEAD
       <div className={styles.boxBotonesredondos}>
         <button className={styles.boxbuttonsprincipal1} >
           Soy cuidadano y quiero donar
@@ -43,6 +57,11 @@ const Home = () => {
         <button className={styles.boxbuttonsprincipal4}>
           Vivo en una comunidad vulnerable y necesito acceso a alimentación
         </button>
+=======
+          <button className={styles.boxbuttonsprincipal}>
+            Vivo en una comunidad vulnerable y necesito acceso a alimentación
+          </button>
+>>>>>>> 9f26fabebd50c5aaf69b67043fc4f7056155a105
         </div>
       </div>
       <BotonFlotante />
