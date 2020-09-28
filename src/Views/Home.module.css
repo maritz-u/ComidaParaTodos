@@ -23,6 +23,13 @@
         width: 748px;
         margin-left: 20%;
     }
+
+    /* .contenedorIconosBoton{
+        display: flex;
+        flex-flow: column nowrap;
+
+    } */
+
     .boxBotonesredondos{
         display: flex;
         justify-content: space-evenly;
@@ -43,3 +50,16 @@
     .boxbuttonsprincipal:hover{
         background-color: rgb(240, 161, 71);
     } 
+
+    .icones{
+        display: flex;
+
+        width: 5%;
+        height: auto;
+    }
+
+    .imgIcon{
+        width: 100%;
+        height: 100%;
+    }
+

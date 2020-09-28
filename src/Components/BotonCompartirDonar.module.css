@@ -1,0 +1,31 @@
+.cajaFlotante{
+    display: flex;
+
+}
+
+.btnFloatDonar{
+    flex: 1 1 auto;
+    filter: opacity(0.9);
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #ff5920;
+    height: 45px;
+    width: 180px;
+    margin-left: 20px;
+}
+
+.btnFloatRedes{
+    flex: 1 1 auto;
+    filter: opacity(0.9);
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #ff5920;
+    height: 45px;
+    width: 180px;
+    margin-left: 20px;
+}
+
