@@ -1,28 +1,32 @@
-    .containerFirstView {
+    /* .containerFirstView {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-    }
+    } */
+    
     .boxtextprincipal{
         display: flex;
-        justify-content: center;
+        flex-flow: column nowrap;
+        align-items: center;
 
     }
-    .boxtextprincipal h1{
+
+   h1{
         color: #ffffff;
         height: 20px;
         width: 100%;
         font-family: "Montserrat", sans-serif;    
     }
     
-    .boxtextprincipal h3{
+  h3{
         font-family: 'Lora', serif;
         font-size: 24px;
         color: #ffffff;
         height:auto;
         width: 748px;
-        margin-left: 20%;
+       
     }
+    
     .boxBotonesredondos{
         display: flex;
         justify-content: space-evenly;
