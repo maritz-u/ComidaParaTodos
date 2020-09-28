@@ -19,7 +19,13 @@ const Header = () => {
           </nav>
         </div>
         <div>
-          <button className={styles.BtnDonar}>Dona un almuerzo</button>
+          {/* <button className={styles.BtnDonar}>Dona un almuerzo</button> */}
+          <button className={styles.BtnDonar}>
+            <a href="https://yodono.cl/proyecto/207/CultivaComidaparaTods"
+              target="_blank" >
+              Dona un Almuerzo
+               </a>
+          </button>
           <button className={styles.BtnDonar}>¿Necesitas Trabajo?</button>
         </div>
       </div>

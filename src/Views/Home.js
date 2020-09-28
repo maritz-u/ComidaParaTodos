@@ -11,7 +11,7 @@ const Home = () => {
         <h1>COMBATAMOS JUNTOS EL HAMBRE EN CHILE</h1>
       </div>
       <div className={styles.boxBotonesredondos} >
-        <button className={styles.boxbuttonsprincipal}>
+        <button className={styles.boxbuttonsprincipal} >
           Soy cuidadano y quiero donar
         </button>
         <button className={styles.boxbuttonsprincipal}>
