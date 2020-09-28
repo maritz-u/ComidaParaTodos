@@ -39,9 +39,29 @@ const Home = () => {
             Soy de un restaurant, productor o transportista y necesito trabajo
           </button>
 
+<<<<<<< HEAD
+      <div className={styles.boxBotonesredondos}>
+        <button className={styles.boxbuttonsprincipal1} >
+          Soy cuidadano y quiero donar
+        </button>
+        
+       
+        <button className={styles.boxbuttonsprincipal2}>
+          Soy una Institución pública o empresa y quiero ayuda
+        </button>
+        
+        <button className={styles.boxbuttonsprincipal3}>
+          Soy de un restaurant, productor o transportista y necesito trabajo
+        </button>
+       
+        <button className={styles.boxbuttonsprincipal4}>
+          Vivo en una comunidad vulnerable y necesito acceso a alimentación
+        </button>
+=======
           <button className={styles.boxbuttonsprincipal}>
             Vivo en una comunidad vulnerable y necesito acceso a alimentación
           </button>
+>>>>>>> 9f26fabebd50c5aaf69b67043fc4f7056155a105
         </div>
       </div>
       <BotonFlotante />

@@ -1,10 +1,12 @@
 .LogoXL{flex: 1 1 auto;
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    height: 100px;}
+    height: 100px;
+    margin-top:-20px;
+}
+
 
 .LogoXL img{
     height: 100%
+
 
 }

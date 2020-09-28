@@ -1,13 +1,14 @@
     .containerHeader {
       display: flex;
-      flex-flow: column;
+      flex-flow: row;
       align-items: center;
       height: 100%;
+      margin-top: 3%;
+      justify-content: center;
     }
 
     .logonav {
       display: flex;
-      flex-flow: row;
     }
 
     .navbar a {

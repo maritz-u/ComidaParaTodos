@@ -26,7 +26,6 @@ const Header = () => {
               Dona un Almuerzo
                </a>
           </button>
-          <button className={styles.BtnDonar}>¿Necesitas Trabajo?</button>
         </div>
       </div>
     </div>
