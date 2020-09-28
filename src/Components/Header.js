@@ -15,7 +15,7 @@ const Header = () => {
             <a href="">  Cómo funciona </a>
             <a href="">  Impacto de la red </a>
             <a href="">  2030 para todos </a>
-            <a href="">  Se parte de la red </a>
+            <a href="">  Súmate </a>
           </nav>
         </div>
         <div>
