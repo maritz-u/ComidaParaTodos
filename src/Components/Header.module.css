@@ -12,17 +12,25 @@
       display: flex;
     }
 
-    .navbar a {
+    .navbar .alternativas{
       flex: 5 1 auto;
       height: 30px;
       color: #ffffff;
+      background: transparent;
+      border: none;
       font-size: 16px;
       font-family: "Montserrat", sans-serif;
+      font-weight: bold;
       text-decoration: none;
       text-align: center;
       margin: 0 40px;
     }
 
+     
+    .SocialContainer img{
+      flex-flow: row ;
+      height: 40px ;
+    }
 
     .BtnDonar {
       flex: 1 1 auto;

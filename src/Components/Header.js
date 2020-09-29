@@ -1,6 +1,10 @@
 import React from "react";
 import BigLogo from "./LogoXL";
 import styles from './Header.module.css';
+import FacebookC from '../img/FacebookIcon.png';
+import InstagramC from '../img/InstagramIcon.png';
+import TwitterC from '../img/TwitterIcon.png';
+import mailC from '../img/mailIcon.png';
 
 
 const Header = () => {
@@ -8,18 +12,27 @@ const Header = () => {
     <div className={styles.containerHeader}>
       <div className={styles.logonav}>
         <BigLogo />
-
         <div className={styles.navbar}>
           <nav>
-            <a href="">  Red solidaria </a>
-            <a href="">  Cómo funciona </a>
-            <a href="">  Impacto de la red </a>
-            <a href="">  2030 para todos </a>
-            <a href="">  Súmate </a>
+            <select className={styles.alternativas}>
+            <option href="">  Red solidaria </option></select>
+            <select className={styles.alternativas}>
+            <option href="">  Cómo funciona </option></select>
+            <select className={styles.alternativas}>
+            <option href="">  Campañas </option></select>
+            <select className={styles.alternativas}>
+            <option href="">  Escuela para todos </option></select>
+            <select className={styles.alternativas}>
+            <option href="">  Súmate </option></select>
           </nav>
         </div>
+        <div className={styles.SocialContainer}>
+         <img src={FacebookC} alt= "Facebook"></img>
+         <img src={InstagramC} alt= "Instagram"></img>
+         <img src={TwitterC} alt= "Twitter"></img>
+         <img src={mailC} alt= "Mail"></img> 
+        </div>
         <div>
-          {/* <button className={styles.BtnDonar}>Dona un almuerzo</button> */}
           <button className={styles.BtnDonar}>
             <a href="https://yodono.cl/proyecto/207/CultivaComidaparaTods"
               target="_blank" >
