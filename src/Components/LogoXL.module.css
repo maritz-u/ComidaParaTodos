@@ -1,12 +1,11 @@
 .LogoXL{flex: 1 1 auto;
     display: flex;
     height: 100px;
-    margin-top:-20px;
+    margin-top: -50px;
 }
 
 
 .LogoXL img{
     height: 100%
-
 
 }

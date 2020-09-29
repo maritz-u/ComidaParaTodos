@@ -27,10 +27,10 @@ const Header = () => {
           </nav>
         </div>
         <div className={styles.SocialContainer}>
-         <img src={FacebookC} alt= "Facebook"></img>
-         <img src={InstagramC} alt= "Instagram"></img>
-         <img src={TwitterC} alt= "Twitter"></img>
-         <img src={mailC} alt= "Mail"></img> 
+         <img src={FacebookC} className={styles.SocialIcon} alt= "Facebook"></img>
+         <img src={InstagramC} className={styles.SocialIcon} alt= "Instagram"></img>
+         <img src={TwitterC} className={styles.SocialIcon} alt= "Twitter"></img>
+         <img src={mailC} className={styles.SocialIcon} alt= "Mail"></img> 
         </div>
         <div>
           <button className={styles.BtnDonar}>

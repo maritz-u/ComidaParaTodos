@@ -30,6 +30,12 @@
     .SocialContainer img{
       flex-flow: row ;
       height: 40px ;
+
+    }
+    .SocialIcon{
+    margin-top: -5px;
+
+
     }
 
     .BtnDonar {
@@ -43,6 +49,7 @@
       height: 45px;
       width: 180px;
       margin-left: 20px;
+      margin-top: -5px;
     }
 
     .BtnDonar a {
