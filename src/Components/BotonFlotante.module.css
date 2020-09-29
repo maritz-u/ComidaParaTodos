@@ -1,5 +1,8 @@
 .cajaFlotante{
     display: flex;
+   align-self: flex-start;
+   padding: 50px;
+
 }
 
 .btnFloatDonar{
@@ -14,15 +17,7 @@
     margin-left: 20px;
 }
 
-.btnFloatRedes{
-    flex: 1 1 auto;
-    border: none;
-    border-radius: 6px;
-    background-color: #ff5920;
-    height: 45px;
-    width: 68px;
-    margin-left: 52px;
-}
+
 
 
 

@@ -4,8 +4,10 @@
         align-items: center;
     }
     .boxtextprincipal{
-        display: flex;
-        justify-content: center;
+     display: flex;
+     flex-flow: column;
+     align-self: flex-start;
+     margin-top: 30px;
 
     }
     .containerFirstView{
@@ -18,7 +20,8 @@
         color: #ffffff;
         height: 20px;
         width: 100%;
-        font-family: "Montserrat", sans-serif;    
+        font-family: "Montserrat", sans-serif;
+        padding-left: 15%;
     }
     
     .boxtextprincipal h3{
@@ -27,7 +30,7 @@
         color: #ffffff;
         height:auto;
         width: 748px;
-        margin-left: 20%;
+        padding-left: 10%;
     }
 
     /* .contenedorIconosBoton{
