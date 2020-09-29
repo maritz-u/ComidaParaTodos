@@ -8,6 +8,12 @@
         justify-content: center;
 
     }
+    .containerFirstView{
+        background-image: url("../img/HeaderMujer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .boxtextprincipal h1{
         color: #ffffff;
         height: 20px;
@@ -31,9 +37,10 @@
     } */
 
     .boxBotonesredondos{
+      
         display: flex;
         justify-content: space-evenly;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     .boxbuttonsprincipal1, .boxbuttonsprincipal2, .boxbuttonsprincipal3, .boxbuttonsprincipal4 {
@@ -63,8 +70,11 @@
 
     .icones{
     display: flex;
+    
     width: 5%;
     height: auto;
+  
+
     }
 
     .imgIcon{
