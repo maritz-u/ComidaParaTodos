@@ -5,10 +5,13 @@ import icoCorazon from "../img/corazonIconW.png";
 import icoEmpresa from "../img/empresaIconW.png";
 import icoTrabajo from "../img/TrabajoIconW.png";
 import icoAyuda from "../img/manoIconW.png";
+import Header from '../Components/Header'
 
 const Home = () => {
   return (
+    
     <div className={styles.containerFirstView}>
+      <Header/>
       <div className={styles.boxtextprincipal}>
         <h3>- La mejor receta para un mejor país -</h3>
       </div>
