@@ -25,7 +25,13 @@
       text-align: center;
       margin: 0 40px;
     }
-
+  
+    .opciones{
+      color:  #333333;;
+      font-family: "Montserrat", sans-serif;
+      background-color: #f2f2f2;
+      size: 6px;
+    }
      
     .SocialContainer img{
       flex-flow: row ;
@@ -34,8 +40,6 @@
     }
     .SocialIcon{
     margin-top: -5px;
-
-
     }
 
     .BtnDonar {

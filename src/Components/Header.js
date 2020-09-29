@@ -15,15 +15,43 @@ const Header = () => {
         <div className={styles.navbar}>
           <nav>
             <select className={styles.alternativas}>
-            <option href="">  Red solidaria </option></select>
+            <option className={styles.opciones} href="">  Red solidaria </option>
+            <option className={styles.opciones} href="">  Nos preocupa</option>
+            <option className={styles.opciones} href="">  Hambre cero (ODS) </option>
+            <option className={styles.opciones} href="">  Estado actual del país </option>
+            <option className={styles.opciones} href="">  Nuestro propósito </option>
+            <option className={styles.opciones} href="">  Qué buscamos </option>
+            <option className={styles.opciones} href="">  Qué fomentamos </option>
+            <option className={styles.opciones} href="">  Quién recibe la ayuda </option>
+            <option className={styles.opciones} href="">  Colaboradores </option>
+            </select>
+            
             <select className={styles.alternativas}>
-            <option href="">  Cómo funciona </option></select>
+            <option className={styles.opciones} href="">  Cómo funciona </option>
+            <option className={styles.opciones} href="">  Nuestros proyectos </option>
+            <option className={styles.opciones} href="">  Modelo campaña solidaria </option>
+            <option className={styles.opciones} href="">  Modelo escuela para todos </option>
+            <option className={styles.opciones} href="">  Testimonio </option>
+            <option className={styles.opciones} href="">  Campaña solidaria </option>
+            </select>
+            
             <select className={styles.alternativas}>
-            <option href="">  Campañas </option></select>
+            <option href=""> Campañas </option>
+            </select>
+
+            
             <select className={styles.alternativas}>
-            <option href="">  Escuela para todos </option></select>
+            <option href="">  Escuela para todos </option>
+            <option className={styles.opciones} href="">  Objetivo </option>
+            <option className={styles.opciones} href="">  Cómo funciona </option>
+            <option className={styles.opciones} href="">  Banco de alimentos </option>
+            <option className={styles.opciones} href="">  Escuelas </option>
+            <option className={styles.opciones} href="">  Cómo puedo aportar </option>
+            </select>
+
+            
             <select className={styles.alternativas}>
-            <option href="">  Súmate </option></select>
+            <option href=""> Súmate </option></select>
           </nav>
         </div>
         <div className={styles.SocialContainer}>
