@@ -6,7 +6,6 @@ import homeBinfo from "../img/homeBinfo.png";
 const Proposito = () => {
     return (
         <div className={styles.cajaSegundaPantalla}>
-
             <div className={styles.boxPropositoText} >
                 <div className={styles.text1}>
                     <h3> - Comida para todos - </h3>
