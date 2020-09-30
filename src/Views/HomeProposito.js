@@ -1,15 +1,12 @@
 import React from 'react';
 import BotonComoAportar from '../Components/BotonComoAportar';
 import Flecha from '../Components/Flecha';
-import Header from '../Components/Header';
 import styles from "../Views/HomeProposito.module.css";
 
 const Proposito = () => {
     return (
         <div className={styles.cajaSegundaPantalla}>
-            <div>
-                <Header />
-            </div>
+         
             <div className={styles.boxPropositoText} >
                 <div className={styles.text1}>
                     <h3> - Comida para todos - </h3>
