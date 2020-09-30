@@ -1,24 +1,47 @@
     .containerHeader {
       display: flex;
-      flex-flow: column;
+      flex-flow: row;
       align-items: center;
       height: 100%;
+      margin-top: 3%;
+      justify-content: center;
+      color: transparent;
     }
 
     .logonav {
       display: flex;
-      flex-flow: row;
     }
 
-    .navbar a {
+  
+    .navbar .alternativas{
       flex: 5 1 auto;
       height: 30px;
       color: #ffffff;
+      background: transparent;
+      border: none;
       font-size: 16px;
       font-family: "Montserrat", sans-serif;
+      font-weight: bold;
       text-decoration: none;
+      text-align: center;
+      margin: 0 40px;
     }
+  
+    .opciones{
+      color:  #333333;;
+      font-family: "Montserrat", sans-serif;
+      background-color: #f2f2f2;
+      size: 6px;
+    }
+     
+    .SocialContainer img{
+      flex-flow: row ;
+      height: 40px ;
 
+    }
+    .SocialIcon{
+    margin-top: -5px;
+    }
 
     .BtnDonar {
       flex: 1 1 auto;
@@ -31,6 +54,8 @@
       height: 45px;
       width: 180px;
       margin-left: 20px;
+      margin-top: -5px;
+      font-weight: bold;
     }
 
     .BtnDonar a {
