@@ -4,6 +4,8 @@ import styles from "../Views/Home.module.css";
 import Header from '../Components/Header';
 import Flecha from "../Components/Flecha";
 import Proposito from "./HomeProposito";
+import Aportar from "./HomeAportar";
+
 
 const Home = () => {
   return (
@@ -23,6 +25,7 @@ const Home = () => {
 
       </div>
       <Proposito />
+      <Aportar />
     </div>
 
   );
