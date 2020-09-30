@@ -2,11 +2,10 @@ import React from 'react';
 import BotonComoAportar from '../Components/BotonComoAportar';
 import Flecha from '../Components/Flecha';
 import styles from "../Views/HomeProposito.module.css";
-
+import homeBinfo from "../img/homeBinfo.png";
 const Proposito = () => {
     return (
         <div className={styles.cajaSegundaPantalla}>
-         
             <div className={styles.boxPropositoText} >
                 <div className={styles.text1}>
                     <h3> - Comida para todos - </h3>
@@ -24,12 +23,15 @@ const Proposito = () => {
                     <p>Educar en materias de alimentación saludable, para fomenter la mejora de calidad de vida.</p>
                     <p>Capacitar en materias de gastronomía a las comunidades y de esta manera generar oportunidades.</p>
                 </div>
+                <div>
+                    <BotonComoAportar />
+
+                </div>
+
             </div>
-            <div>
-                <BotonComoAportar />
-            </div>
-            <div className={styles.contenedorImageneXL}>
-                {/* <img src= */}
+
+            <div className={styles.contenedorImagenXL}>
+                <img className={styles.imagenxL} src={homeBinfo} alt="" />
             </div>
 
             <div>
