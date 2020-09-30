@@ -2,6 +2,7 @@
     background-color: #FCF5EB;
     display: flex;
     flex-flow: row;
+    height: 100vh;
 }
 
 .boxPropositoText{
