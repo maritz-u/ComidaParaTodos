@@ -1,11 +1,16 @@
     .containerHeader {
-      display: flex;
+      /* display: flex;
       flex-flow: row;
       align-items: center;
       height: 100%;
       margin-top: 3%;
-      justify-content: center;
-      color: transparent;
+      justify-content: center; */
+        color: transparent;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%; 
+      
     }
 
     .logonav {
