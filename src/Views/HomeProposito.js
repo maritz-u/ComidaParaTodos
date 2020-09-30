@@ -10,19 +10,19 @@ const Proposito = () => {
             <div>
                 <Header />
             </div>
-            <div >
-                <div>
+            <div className={styles.boxPropositoText} >
+                <div className={styles.text1}>
                     <h3> - Comida para todos - </h3>
                     <h1>PROPÓSITO</h1>
                 </div>
-                <div>
+                <div className={styles.text2}>
                     <p>
                         Somos una plataforma solidaria que nace de la unión de organizaciones sociales, que busca salvaguardar la Seguridad
                         Alimentaria. Conectamos, colaboramos y generamos asociatividad entre los actores, de manera intersectorial,
                         como fórmula para el desarrollo con la comunidad de programas sociales de impacto colectivo. a través de:
                 </p>
                 </div>
-                <div>
+                <div className={styles.text3}>
                     <p> Generar y distribuir alimentación a quienes más lo necesitan a raíz de las contingencias.</p>
                     <p>Educar en materias de alimentación saludable, para fomenter la mejora de calidad de vida.</p>
                     <p>Capacitar en materias de gastronomía a las comunidades y de esta manera generar oportunidades.</p>
@@ -31,8 +31,8 @@ const Proposito = () => {
             <div>
                 <BotonComoAportar />
             </div>
-            <div>
-                Image
+            <div className={styles.contenedorImageneXL}>
+                {/* <img src= */}
             </div>
 
             <div>
