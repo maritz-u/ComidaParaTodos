@@ -2,6 +2,10 @@
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+        background-image: url("../img/HeaderMujer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
     }
     .boxtextprincipal{
      display: flex;
@@ -10,12 +14,7 @@
      margin-top: 30px;
 
     }
-    .containerFirstView{
-        background-image: url("../img/HeaderMujer.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
+    
     .boxtextprincipal h1{
         color: #ffffff;
         height: 20px;
@@ -33,11 +32,6 @@
         padding-left: 10%;
     }
 
-    /* .contenedorIconosBoton{
-        display: flex;
-        flex-flow: column nowrap;
-
-    } */
 
     .boxBotonesredondos{
       
