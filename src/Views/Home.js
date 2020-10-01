@@ -5,6 +5,7 @@ import Header from '../Components/Header';
 import Flecha from "../Components/Flecha";
 import Proposito from "./HomeProposito";
 import Aportar from "./HomeAportar";
+import Carrusel from "./HomeCarrusel";
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       </div>
       <Proposito />
       <Aportar />
+      <Carrusel />
     </div>
 
   );
