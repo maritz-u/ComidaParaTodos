@@ -1,31 +1,83 @@
 import React from "react";
 import FlechaColor from "../Components/FlechaColor";
 import styles from "../Views/HomeAportar.module.css";
+import icon1 from '../img/homeB2icon1.png';
+import icon2 from '../img/homeB2icon2.png';
+import icon3 from '../img/homeB2icon3.png';
+import icon4 from '../img/homeB2icon4.png';
+import icon5 from '../img/homeB2icon5.png';
+import icon6 from '../img/homeB2icon6.png';
 
 const Aportar = () => {
   return (
     <div className={styles.BigContainerAportar}>
+
       <h3>- Sùmate a nuestra red -</h3>
       <h1>¿CÒMO APORTAR?</h1>
+      
       <div className={styles.BoxBotones}>
+
         <div className={styles.CajatresBotones}>
-        <button className={styles.Boton1}><a href=""><strong> $3000 = 1 Almuerzo </strong>
-         Puede donar dinero y aportar con un almuerzo</a></button>
-        <button className={styles.Boton2}><a href=""><strong> Dona Alimentos y huertos </strong>
-         Puedes donar huertos urbanos y alimentos a la comunidad </a> </button>
-        <button className={styles.Boton3}><a href=""><strong> Dona tiempo y talento </strong> 
-        Puedes dar clases, capacitaciones y talleres </a></button>
-        </div>  
-      <div className={styles.CajatresBotones}>
-        <button className={styles.Boton4}><a href=""><strong> Puedes ser colaborador </strong>
-         Como Empresa-Instituciòn publica y empresa privada puedes multiplicar la donaciòn y apadrinar una comunidad </a></button>
-        <button className={styles.Boton5}><a href=""><strong> Productores, restaurantes y transportistas </strong>
-         Trabaja con nosotros y ambos crecemos </a></button>
-        <button className={styles.Boton6}><a href=""><strong> Vives en un sector vulnerable </strong>
-         Y necesitas alimentos, conocimiento y emprender </a></button>
-      </div>  
+
+          <button className={styles.Boton1}>
+            <img src={icon2} alt='' />
+            <a href="">
+              <h4> $3000 = 1 Almuerzo </h4>
+              <p>Puede donar dinero y aportar con un almuerzo</p>
+            </a>
+          </button>
+
+          <button className={styles.Boton2}>
+            <img src={icon3} alt='' />
+            <a href="">
+              <h4> Dona Alimentos y huertos </h4>
+              <p>Puedes donar huertos urbanos y alimentos a la comunidad</p>
+            </a>
+          </button>
+
+          <button className={styles.Boton3}>
+            <img src={icon4} alt='' />
+            <a href="">
+              <h4> Dona tiempo y talento </h4>
+              <p>Puedes dar clases, capacitaciones y talleres</p>
+            </a>
+          </button>
+
+        </div>
+
+        <div className={styles.CajatresBotones}>
+
+          <button className={styles.Boton4}>
+            <img src={icon6} alt='' />
+            <a href="">
+              <h4> Puedes ser colaborador </h4>
+              <p>Como Empresa-Instituciòn publica y empresa privada puedes multiplicar la donaciòn y apadrinar una comunidad</p>
+            </a>
+          </button>
+
+          <button className={styles.Boton5}>
+            <img src={icon1} alt='' />
+            <a href="">
+              <h4> Productores, restaurantes y transportistas </h4>
+              <p>Trabaja con nosotros y ambos crecemos</p>
+            </a>
+          </button>
+
+          <button className={styles.Boton6}>
+            <img src={icon5} alt='' />
+            <a href=""><h4> Vives en un sector vulnerable </h4>
+              <p>Y necesitas alimentos, conocimiento y emprender </p>
+            </a>
+          </button>
+
+        </div>
+
       </div>
-      <FlechaColor />
+
+      <div>
+        <FlechaColor />
+      </div>
+
     </div>
   );
 };

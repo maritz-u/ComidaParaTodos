@@ -3,9 +3,9 @@
       flex-flow: row;
       align-items: center;
       height: 100%;
-      margin-top: 3%;
+      margin-top: 0;
       justify-content: center; */
-        color: transparent;
+      background-color: transparent;
         overflow: hidden;
         position: fixed;
         top: 0;
