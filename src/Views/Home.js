@@ -6,7 +6,7 @@ import Flecha from "../Components/Flecha";
 import Proposito from "./HomeProposito";
 import Aportar from "./HomeAportar";
 import Carrusel from "./HomeCarrusel";
-
+import Campañas from "./HomeCampañas";
 
 const Home = () => {
   return (
@@ -28,6 +28,7 @@ const Home = () => {
       <Proposito />
       <Aportar />
       <Carrusel />
+      <Campañas />
     </div>
 
   );
