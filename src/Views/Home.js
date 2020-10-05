@@ -7,6 +7,7 @@ import Proposito from "./HomeProposito";
 import Aportar from "./HomeAportar";
 import Carrusel from "./HomeCarrusel";
 import Campañas from "./HomeCampañas";
+import Proyectos from "./HomeProyectos";
 
 const Home = () => {
   return (
@@ -29,6 +30,8 @@ const Home = () => {
       <Aportar />
       <Carrusel />
       <Campañas />
+      <Proyectos />
+      
     </div>
 
   );

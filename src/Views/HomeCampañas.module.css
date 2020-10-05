@@ -1,14 +1,30 @@
 .CajaquintaPantalla{
-display: flex;
-flex-flow: row;
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
 }
+
 .Cajatextos{
-display: flex;
-flex-flow: column;
-width:50%;
-padding: 20px;
+    display: flex;
+    flex-flow: column;
+    width:50%;
+    /* padding: 10px; */
+    /* padding: 10px 0 10px 5px; */
+    margin-left: 5px;
+    margin-bottom: 10px;
+   
 }
-.TextoLargo h3{
+.Cajatextos h1{
+    margin-bottom: -5%;
+}
+
+.TextoLargo{
+
+    margin-top: 10%;
+ 
+}
+
+.TextoLargo p{
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
@@ -16,29 +32,21 @@ padding: 20px;
     line-height: 27px;
     letter-spacing: 0px;
     text-align: left;
-    
+    margin-bottom: -15px;
 }
 
-
-
-
-
-
-
-
-
-
 .CifrasCampaña{
-display: flex;
-flex-flow: row;
+    display: flex;
+    flex-flow: row;
 }
 
 .CifrasCampaña1{
-flex: 1 1;
+    flex: 1 1;
 
 }
+
 .CifrasCampaña2{
-flex: 1 1;
+    flex: 1 1;
     
 }
 
@@ -53,17 +61,16 @@ flex: 1 1;
 
 }
 .CifrasCampaña1 h1, .CifrasCampaña2 h1{
-color: #2cb7e5;    
+    color: #2cb7e5;    
 }
-
-
 
 .CajaImgCaballero{
-width: 50%;
+    width: 50%;
 
 }
+
 .ImgCaballero{
-width: 100%;
+    width: 100%;
 
 }
 

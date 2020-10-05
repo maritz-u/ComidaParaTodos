@@ -47,15 +47,15 @@ const Proposito = () => {
         <div>
           <BotonComoAportar />
         </div>
+        <FlechaColor />
       </div>
 
       <div className={styles.contenedorImagenXL}>
         <img className={styles.imagenxL} src={homeBinfo} alt="" />
       </div>
 
-      <div>
-        <FlechaColor />
-      </div>
+        
+      
     </div>
   );
 };
