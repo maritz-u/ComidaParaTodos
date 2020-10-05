@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../Views/HomeCampañas.module.css";
 import FotoCaballero from "../img/homeE.png";
 import BotonComoAportar from "../Components/BotonComoAportar";
+import FlechaColor from "../Components/FlechaColor";
 
 const Campañas = () => {
     return (
@@ -11,10 +12,10 @@ const Campañas = () => {
                 <h1>CAMPAÑA SOLIDARIA</h1>
                 <h1>DE EMERGENCIA</h1>
                 <div className={styles.TextoLargo} >
-                    <h3>Continuamos con el desarrollo de la campaña solidaria de</h3>
-                    <h3>emergencia que convoque a la ciudadanía y empresariado,</h3>
-                    <h3>que fomente la asistencia en la emergencia a las comunidades</h3>
-                    <h3>más necesitadas y la re activación económica.</h3>
+                    <p>Continuamos con el desarrollo de la campaña solidaria de</p>
+                    <p>emergencia que convoque a la ciudadanía y empresariado,</p>
+                    <p>que fomente la asistencia en la emergencia a las comunidades</p>
+                    <p>más necesitadas y la re activación económica.</p>
                 </div>
                 <div className={styles.CifrasCampaña}>
                     <div className={styles.CifrasCampaña1}>
@@ -31,11 +32,12 @@ const Campañas = () => {
                     </div>
 
                 </div>
-                
+
                 <div>
                     <BotonComoAportar />
                 </div>
-                
+                <FlechaColor />
+
             </div>
             <div className={styles.CajaImgCaballero}>
 
@@ -44,19 +46,6 @@ const Campañas = () => {
             </div>
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     )
 };
