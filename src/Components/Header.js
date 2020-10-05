@@ -11,7 +11,10 @@ const Header = () => {
   return (
     <div className={styles.containerHeader}>
       <div className={styles.logonav}>
+        <div className={styles.Cajalogo}>
         <BigLogo />
+        </div>
+        
         <div className={styles.navbar}>
           <nav>
             
@@ -57,18 +60,18 @@ const Header = () => {
           
               <select className={styles.alternativas}>
                 <option className={styles.opciones} href=""> Súmate </option>
-                <option className={styles.opciones} href=""> Soy una empresa pública/privada </option>
+                <option className={styles.opciones} href=""> Soy una empresa  </option>
                 <option className={styles.opciones} href=""> Soy transportista </option>
                 <option className={styles.opciones} href=""> Soy un restaurant </option>
                 <option className={styles.opciones} href=""> Soy productor</option>
-                <option className={styles.opciones} href=""> Vivo en un sector vulnerable</option>
+                <option className={styles.opciones} href=""> Vivo en un sector</option>
 
               </select>
           
           </nav>
         </div>
         <div className={styles.SocialContainer}>
-          <img src={FacebookC} className={styles.SocialIcon} alt="Facebook"></img>
+          
           <a href='https://www.instagram.com/comida_para_todos_cl/' target='_blank'>
             <img src={InstagramC} className={styles.SocialIcon} alt="Instagram"  />
             </a>

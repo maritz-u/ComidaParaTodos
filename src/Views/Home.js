@@ -24,7 +24,8 @@ const Home = () => {
           <h1>EL HAMBRE EN CHILE</h1>
         </div>
         <BotonFlotante />
-        <Flecha />
+        <div className={styles.flecha}> <Flecha /></div>
+
 
       </div>
       <Proposito />
@@ -38,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home;

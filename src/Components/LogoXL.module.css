@@ -1,8 +1,10 @@
 .LogoXL{
     flex: 1 1 auto;
     display: flex;
-    height: 100px;
+    height: 80px;
+    width: 90px;
     margin-top: -50px;
+    padding-left: 10px;
 }
 
 
