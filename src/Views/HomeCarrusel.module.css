@@ -41,12 +41,9 @@
 .cajaBotonLeerMas{
     display: flex;
     flex-flow: row;
-    
 }
 
-
-.botonLeerMas {
-    
+.botonLeerMas{
     font-family: "Montserrat", sans-serif;
     border: 2px solid #ff5920;
     border-radius: 6px;
