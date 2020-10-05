@@ -12,16 +12,14 @@
     /* padding: 10px 0 10px 5px; */
     margin-left: 5px;
     margin-bottom: 10px;
-   
 }
+
 .Cajatextos h1{
     margin-bottom: -5%;
 }
 
 .TextoLargo{
-
     margin-top: 10%;
- 
 }
 
 .TextoLargo p{
@@ -46,7 +44,6 @@
 
 .CifrasCampaña2{
     flex: 1 1;
-    
 }
 
 .CifrasCampaña1 h3, .CifrasCampaña2 h3{
@@ -65,7 +62,6 @@
 
 .CajaImgCaballero{
     width: 50%;
-
 }
 
 .ImgCaballero{

@@ -1,73 +1,73 @@
-    .containerHeader {
-      /* display: flex;
-      flex-flow: row;
-      align-items: center;
-      height: 100%;
-      margin-top: 0;
-      justify-content: center; */
-      background-color: transparent;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%; 
-      
-    }
+.containerHeader {
+    /* display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+    margin-top: 0;
+    justify-content: center; */
+    
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
 
-    .logonav {
-      display: flex;
-    }
+.logonav {
+    display: flex;
+}
 
   
-    .navbar .alternativas{
-      flex: 5 1 auto;
-      height: 30px;
-      color: #ffffff;
-      background: transparent;
-      border: none;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      text-decoration: none;
-      text-align: center;
-      margin: 0 40px;
-    }
+.navbar .alternativas{
+    flex: 5 1 auto;
+    height: 30px;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 40px;
+}
   
 .opciones{
-      color:  #333333;;
-      font-family: "Montserrat", sans-serif;
-      background-color: #f2f2f2;
-      size: 6px;
+    color:  #333333;;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+    size: 6px;
    }
      
 .SocialContainer img{
-      flex-flow: row ;
-      height: 40px ;
+    flex-flow: row ;
+    height: 40px ;
+ }
 
-    }
-.SocialIcon{
+ .SocialIcon{
     margin-top: -5px;
-    }
+}
 
-    .BtnDonar {
-      flex: 1 1 auto;
-      filter: opacity(0.9);
-      font-family: "Montserrat", sans-serif;
-      border: none;
-      border-radius: 6px;
-      color: #ffffff;
-      background-color: #ff5920;
-      height: 45px;
-      width: 180px;
-      margin-left: 20px;
-      margin-top: -5px;
-      font-weight: bold;
-    }
+.BtnDonar {
+    flex: 1 1 auto;
+    filter: opacity(0.9);
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #ff5920;
+    height: 45px;
+    width: 180px;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+}
 
-    .BtnDonar a {
-      color: #ffffff;
-      text-decoration: none;
-    }
+.BtnDonar a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
-    .BtnDonar:hover {
-     background-color: blueviolet;
-    }
+.BtnDonar:hover {
+    background-color: blueviolet;
+}

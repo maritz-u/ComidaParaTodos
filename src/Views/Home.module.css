@@ -1,81 +1,75 @@
-    .containerFirstView {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        background-image: url("../img/HeaderMujer.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-    .boxtextprincipal{
-     display: flex;
-     flex-flow: column;
-     align-self: flex-start;
-     margin-top: 30px;
-
-    }
+.containerFirstView {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-image: url("../img/HeaderMujer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.boxtextprincipal{
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    margin-top: 30px;
+}
     
-    .boxtextprincipal h1{
-        color: #ffffff;
-        height: 20px;
-        width: 100%;
-        font-family: "Montserrat", sans-serif;
-        padding-left: 15%;
-    }
+.boxtextprincipal h1{
+    color: #ffffff;
+    height: 20px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 15%;
+}
     
-    .boxtextprincipal h3{
-        font-family: 'Lora', serif;
-        font-size: 24px;
-        color: #ffffff;
-        height:auto;
-        width: 748px;
-        padding-left: 10%;
-    }
+.boxtextprincipal h3{
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: #ffffff;
+    height:auto;
+    width: 748px;
+    padding-left: 10%;
+}
 
 
-    .boxBotonesredondos{
-      
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 10%;
-    }
+.boxBotonesredondos{  
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
 
-    .boxbuttonsprincipal1, .boxbuttonsprincipal2, .boxbuttonsprincipal3, .boxbuttonsprincipal4 {
-        color: #333333; 
-        background-color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
-        width: 150px;
-        height: 150px;
-        border-radius: 80px;
-        border: none;
+.boxbuttonsprincipal1, .boxbuttonsprincipal2, .boxbuttonsprincipal3, .boxbuttonsprincipal4 {
+    color: #333333; 
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: none;
+}
 
-    }
-
-    .boxbuttonsprincipal1:hover, .boxbuttonsprincipal2:hover{
+.boxbuttonsprincipal1:hover, .boxbuttonsprincipal2:hover{
     background-color: #ff5920;
-    }
+}
 
-   
-    .boxbuttonsprincipal3:hover{
+.boxbuttonsprincipal3:hover{
     background-color: rgb(240, 161, 71);
-    } 
-    .boxbuttonsprincipal4:hover{
+} 
+
+.boxbuttonsprincipal4:hover{
     background-color:#2cb7e5 ;    
-    }
+}
 
-
-    .icones{
+.icones{
     display: flex;
     
     width: 5%;
     height: auto;
-  
+}
 
-    }
-
-    .imgIcon{
+.imgIcon{
     width: 100%;
     height: 100%;
-    }
+}
 
