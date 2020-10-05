@@ -1,0 +1,81 @@
+.ContainerProyectos{
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
+}
+
+.CajatextoUno{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    background-color:#fcf5eB ;
+    padding-left: 30px;
+}
+
+.CajatextoDos{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    background-color: #ff5920;
+    padding-left: 30px;
+}
+
+.TextoImagen{
+    display: flex;
+    flex-flow: row;
+    /* align-items: center; */
+}
+
+.TextH1{
+    display: flex;
+    flex-flow: column;
+    /* align-items: center; */
+
+}
+
+.ContainerProyectos h1{
+    margin-bottom: -10%;
+}
+
+.ContainerProyectos h3{
+    margin-top: 15%;
+    margin-bottom: -3%;
+}
+
+.TextoLargo p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: -15px;
+}
+
+.IconImg{
+    width: 190px ;
+    height: 210px ;
+    margin-left: 70px;
+    margin-top: -5%;
+
+}
+.imgIcon{
+    width: 100% ;
+   
+}
+
+.btnProyectos{
+    flex: 1 1 auto;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #ff5920;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color:  #ff5920;
+    height: 45px;
+    width: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10%;
+}
