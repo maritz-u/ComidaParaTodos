@@ -69,8 +69,12 @@ const Header = () => {
         </div>
         <div className={styles.SocialContainer}>
           <img src={FacebookC} className={styles.SocialIcon} alt="Facebook"></img>
-          <img src={InstagramC} className={styles.SocialIcon} alt="Instagram"></img>
-          <img src={TwitterC} className={styles.SocialIcon} alt="Twitter"></img>
+          <a href='https://www.instagram.com/comida_para_todos_cl/' target='_blank'>
+            <img src={InstagramC} className={styles.SocialIcon} alt="Instagram"  />
+            </a>
+            <a href='https://twitter.com/chilecomida' target='_blank'>
+          <img src={TwitterC} className={styles.SocialIcon} alt="Twitter" />
+          </a>
           <img src={mailC} className={styles.SocialIcon} alt="Mail"></img>
         </div>
         <div>
