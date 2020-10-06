@@ -6,9 +6,9 @@
 }
 
 .boxPropositoText{
-   padding: 10px;
+   margin-left: 20px;
    width: 50%;
-   margin-top: 50px;
+   
 }
 
 .text1{
@@ -60,5 +60,20 @@
 .imagenxL{
     width: 100%;
     height: 100%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
+.Img1{
+width: 70px;
+height: 60px;
+
+
+}
+.contenedorBotonFlecha{
+display: flex;
+flex-flow:row;
+justify-content: space-between;
+padding: 0;
+
+}
+
+         
