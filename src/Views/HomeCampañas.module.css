@@ -12,6 +12,7 @@
     /* padding: 10px 0 10px 5px; */
     margin-left: 5px;
     margin-bottom: 10px;
+    padding-left: 20px;
 }
 
 .Cajatextos h1{
@@ -58,6 +59,18 @@
 
 .CifrasCampaña1 h1, .CifrasCampaña2 h1{
     color: #2cb7e5;    
+}
+
+.cajaBotonFlecha2{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+    padding-top: 20px ;
+    padding-left: 0 ;
+}
+
+.BoxFlecha2{
+    padding-right: 20px;
 }
 
 .CajaImgCaballero{

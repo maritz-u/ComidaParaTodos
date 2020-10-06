@@ -12,8 +12,10 @@ const Aportar = () => {
   return (
     <div className={styles.BigContainerAportar}>
 
+      <div className={styles.cajaTextos}>
       <h3>- Súmate a nuestra red -</h3>
       <h1>¿CÓMO APORTAR?</h1>
+      </div>
       
       <div className={styles.BoxBotones}>
 
@@ -71,12 +73,10 @@ const Aportar = () => {
           </button>
 
         </div>
-
-      </div>
-
-      <div>
         <FlechaColor />
       </div>
+
+    
 
     </div>
   );
