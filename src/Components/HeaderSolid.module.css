@@ -12,8 +12,6 @@
     position: fixed;
     top: 0;
     width: 100%; 
-    
-   
 }
 
 .logonav {
@@ -72,14 +70,13 @@
     width: 180px;
     margin: 15px 20px 0 20px;
     font-weight: bold;
-    text-decoration: none;
 }
 
-/* .BtnDonar a {
+ .BtnDonarW a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.BtnDonar:hover {
+.BtnDonarW:hover {
     background-color: blueviolet;
-} */
+}

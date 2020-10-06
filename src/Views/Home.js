@@ -9,13 +9,14 @@ import Campañas from "./HomeCampañas";
 import Proyectos from "./HomeProyectos";
 import Footer from "./HomeFooter";
 import Header from "../Components/Header";
+import HeaderSolid from "../Components/HeaderSolid";
 
 
 const Home = () => {
   return (
     <div>
       <div className={styles.containerFirstView}>
-        <Header/>
+        <HeaderSolid/>
         <div className={styles.boxtextprincipal}>
           <h3> - La mejor receta para un mejor país - </h3>
         </div>

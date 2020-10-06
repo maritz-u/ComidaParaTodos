@@ -3,15 +3,17 @@ import styles from './HeaderSolid.module.css';
 import InstagramC from '../img/InstagramIcon.png';
 import TwitterC from '../img/TwitterIcon.png';
 import mailC from '../img/mailIcon.png';
+import BigLogo from "./LogoXL";
 
 
 const HeaderSolid = () => {
   return (
     <div className={styles.containerHeaderW}>
-      {/* <div className={styles.logonavW}> */}
-        {/* <div className={styles.CajalogoW}>
-       
-        </div> */}
+    <div className={styles.logonav}>
+      <div className={styles.Cajalogo}>
+      <BigLogo />
+      </div>
+      
         
         <div className={styles.navbar}>
           <nav>
@@ -87,6 +89,7 @@ const HeaderSolid = () => {
           </button>
         </div>
       </div>
+     </div> 
   );
 };
 

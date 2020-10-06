@@ -1,7 +1,6 @@
 import React from "react";
 import BigLogo from "./LogoXL";
 import styles from './Header.module.css';
-import FacebookC from '../img/FacebookIcon.png';
 import InstagramC from '../img/InstagramIcon.png';
 import TwitterC from '../img/TwitterIcon.png';
 import mailC from '../img/mailIcon.png';
