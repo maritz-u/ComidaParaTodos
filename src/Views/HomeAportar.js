@@ -12,8 +12,8 @@ const Aportar = () => {
   return (
     <div className={styles.BigContainerAportar}>
 
-      <h3>- Sùmate a nuestra red -</h3>
-      <h1>¿CÒMO APORTAR?</h1>
+      <h3>- Súmate a nuestra red -</h3>
+      <h1>¿CÓMO APORTAR?</h1>
       
       <div className={styles.BoxBotones}>
 

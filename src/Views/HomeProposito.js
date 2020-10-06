@@ -22,32 +22,37 @@ const Proposito = () => {
             Alimentaria. Conectamos, colaboramos y generamos asociatividad entre
             los actores, de manera intersectorial, como fórmula para el
             desarrollo con la comunidad de programas sociales de impacto
-            colectivo. a través de:
+            colectivo, a través de:
           </p>
         </div>
+        <br></br>
         <div className={styles.text3}>
+          <img className={styles.Img1}  src={homeBIcon} alt="" />
           <p>
-          <img src={homeBIcon} alt="" />
             Generar y distribuir alimentación a quienes más lo necesitan a raíz
             de las contingencias.
           </p>
+         <br></br>
+          <img className={styles.Img1}  src={homeBIconB} alt="" />
           <p>
-          <img src={homeBIconB} alt="" />
-            Educar en materias de alimentación saludable, para fomenter la
+            Educar en materias de alimentación saludable, para fomentar la
             mejora de calidad de vida.
           </p>
+          <br></br>
+          <img className={styles.Img1}  src={homeBIconC} alt="" />
           <p>
-          <img src={homeBIconC} alt="" />
             Capacitar en materias de gastronomía a las comunidades y de esta
             manera generar oportunidades.
           </p>
         </div>
-       
-
-        <div>
+        <br></br>
+        <div className ={styles.contenedorBotonFlecha}> 
           <BotonComoAportar />
+          <div className ={styles.BoxFlecha}>
+          <FlechaColor />
+          </div>
         </div>
-        <FlechaColor />
+      
       </div>
 
       <div className={styles.contenedorImagenXL}>
