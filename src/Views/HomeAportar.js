@@ -8,8 +8,10 @@ import icon4 from '../img/homeB2icon4.png';
 import icon5 from '../img/homeB2icon5.png';
 import icon6 from '../img/homeB2icon6.png';
 
+
 const Aportar = () => {
   return (
+  
     <div className={styles.BigContainerAportar}>
 
       <div className={styles.cajaTextos}>
