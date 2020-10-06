@@ -1,7 +1,6 @@
 import React from "react";
 import BotonFlotante from "../Components/BotonFlotante";
 import styles from "../Views/Home.module.css";
-import Header from '../Components/Header';
 import Flecha from "../Components/Flecha";
 import Proposito from "./HomeProposito";
 import Aportar from "./HomeAportar";
@@ -9,12 +8,14 @@ import Carrusel from "./HomeCarrusel";
 import Campañas from "./HomeCampañas";
 import Proyectos from "./HomeProyectos";
 import Footer from "./HomeFooter";
+import Header from "../Components/Header";
+
 
 const Home = () => {
   return (
     <div>
       <div className={styles.containerFirstView}>
-        <Header />
+        <Header/>
         <div className={styles.boxtextprincipal}>
           <h3> - La mejor receta para un mejor país - </h3>
         </div>
