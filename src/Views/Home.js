@@ -16,7 +16,7 @@ const Home = () => {
       <div className={styles.containerFirstView}>
         <Header />
         <div className={styles.boxtextprincipal}>
-          <h3> La mejor receta para un mejor país </h3>
+          <h3> - La mejor receta para un mejor país - </h3>
         </div>
         <div className={styles.boxtextprincipal}>
           <h1>SOMOS COMIDA PARA TODOS</h1>

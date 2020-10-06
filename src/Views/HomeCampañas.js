@@ -16,6 +16,7 @@ const Campañas = () => {
                     <p>emergencia que convoque a la ciudadanía y empresariado,</p>
                     <p>que fomente la asistencia en la emergencia a las comunidades</p>
                     <p>más necesitadas y la re activación económica.</p>
+                    <br></br>
                 </div>
                 <div className={styles.CifrasCampaña}>
                     <div className={styles.CifrasCampaña1}>
@@ -33,10 +34,13 @@ const Campañas = () => {
 
                 </div>
 
-                <div>
+                <div className={styles.cajaBotonFlecha2}>
                     <BotonComoAportar />
+                    <div className ={styles.BoxFlecha2}>
+                    <FlechaColor />
+                    </div>
                 </div>
-                <FlechaColor />
+               
 
             </div>
             <div className={styles.CajaImgCaballero}>
