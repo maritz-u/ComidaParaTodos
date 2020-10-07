@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../Views/HomeProyectos.module.css";
 import icon1 from '../img/HomeF_banco.png';
 import icon2 from '../img/HomeF_escuela.png';
-import Flecha from '../Components/Flecha'
+import FlechaColor from "../Components/FlechaColor";
 
 
 
@@ -33,8 +33,11 @@ const Proyectos = () => {
 
                 </div>
 
-                <div>
+                <div className={styles.cajaBtn}>
                     <button className={styles.btnProyectos}>Ver Proyecto  </button>
+                    <div className={styles.FlechaCarrusel}>
+                    <FlechaColor />
+                    </div>
                 </div>
 
             </div>
@@ -60,10 +63,10 @@ const Proyectos = () => {
 
                 </div>
 
-                <div>
+                <div className={styles.cajaBtn}>
                     <button className={styles.btnProyectos}>Ver Proyecto  </button>
                 </div>
-                <Flecha />
+            
 
             </div>
             
