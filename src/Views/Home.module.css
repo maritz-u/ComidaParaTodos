@@ -20,20 +20,30 @@
     width: 100%;
     font-family: "Montserrat", sans-serif;
     padding-left: 10%;
-
+    font-size: 60px;
 }
     
 .boxtextprincipal h3{
     font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 32px;
     color: #ffffff;
     height:auto;
     width: 748px;
     padding-left: 10%;
     margin-top: 15%;
+    margin-bottom: 5px;
+}
+/* 
+.BotonFlecha{
+    display: flex;
+    flex-flow:row;
+    align-items: center;
 }
 
+.btnFloat{
+   
+}
 
 .flecha{
-    margin-top: -2%;
-}
+
+} */

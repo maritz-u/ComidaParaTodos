@@ -39,6 +39,8 @@
     font-weight: bold;
     text-decoration: none;
     margin-top: 30px;
+    outline: none;
+    cursor: pointer;
 }
   
 .opciones{

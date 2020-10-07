@@ -19,6 +19,10 @@
     margin-bottom: -5%;
 }
 
+.Cajatextos h3{
+    margin-bottom: -3%;
+}
+
 .TextoLargo{
     margin-top: 10%;
 }
@@ -65,8 +69,7 @@
     display: flex;
     flex-flow:row;
     justify-content: space-between;
-    padding-top: 20px ;
-    padding-left: 0 ;
+    padding-top: 80px ;
 }
 
 .BoxFlecha2{

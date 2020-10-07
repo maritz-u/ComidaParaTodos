@@ -1,12 +1,6 @@
-.cajaFlotante{
-    display: flex;
-   align-self: flex-start;
-   padding: 50px;
-
-}
-
 .btnFloatDonar{
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
+    margin-top: 50px;
     font-family: "Montserrat", sans-serif;
     border: none;
     border-radius: 6px;
@@ -14,8 +8,10 @@
     background-color: #ff5920;
     height: 45px;
     width: 180px;
-    margin-left: 20px;
     font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    margin-left: 100px;
 }
 
 

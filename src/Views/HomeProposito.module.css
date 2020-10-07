@@ -3,12 +3,13 @@
     display: flex;
     flex-flow: row;
     height: 100vh;
+    padding-left: 20px;
 }
 
 .boxPropositoText{
    padding-top: 20px;
    padding-left: 20px;
-   width: 50%;
+   width: 40%;
 }
 
 .text1{
@@ -55,6 +56,7 @@
 .contenedorImagenXL{
     width: 50%;
     height: 100%;
+    margin-left: 70px;
 }
 
 .imagenxL{
@@ -68,11 +70,12 @@
 }
 
 .contenedorBotonFlecha{
-display: flex;
-flex-flow:row;
-justify-content: space-between;
-padding: 0;
-
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
 }
 
+.BoxFlecha{
+    margin-left: 120px;
+}
          

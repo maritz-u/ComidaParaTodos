@@ -92,6 +92,8 @@
     margin-left: 20px;
     margin-top: -5px;
     font-weight: bold;
+    outline: none;
+    cursor: pointer;
 }
 
 
