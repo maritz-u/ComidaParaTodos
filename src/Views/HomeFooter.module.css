@@ -52,7 +52,7 @@
 }
 
 .ContainerNewsletter p{
-    font-family: Montserrat !important;
+    font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -82,7 +82,7 @@
 .BtnSuscribirse{
     flex: 1 1 auto;
     filter: opacity(0.9);
-    font-family: "Montserrat", sans-serif !important;
+    font-family: "Montserrat", sans-serif;
     border: none;
     border-radius: 6px;
     color: #ffffff;
@@ -102,7 +102,7 @@
 }
 
 .TextRRSS h4{
-    font-family: Montserrat !important;
+    font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
