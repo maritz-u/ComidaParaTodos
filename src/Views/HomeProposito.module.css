@@ -3,16 +3,17 @@
     display: flex;
     flex-flow: row;
     height: 100vh;
+    padding-left: 20px;
 }
 
 .boxPropositoText{
-   padding: 10px;
-   width: 50%;
-   margin-top: 50px;
+   padding-top: 20px;
+   padding-left: 20px;
+   width: 40%;
 }
 
 .text1{
-    font-family: Lora;
+    font-family: Lora !important;
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
@@ -24,7 +25,7 @@
 
 .text1 h1{
    
-    font-family: Montserrat;
+    font-family: Montserrat !important;
     font-size: 44px;
     font-style: normal;
     font-weight: 800;
@@ -34,7 +35,7 @@
 }
 
 .text2{
-    font-family: Montserrat;
+    font-family: Montserrat !important;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -43,7 +44,7 @@
 }
 
 .text3{
-    font-family: Montserrat;
+    font-family: Montserrat !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -53,12 +54,28 @@
 }
 
 .contenedorImagenXL{
-width: 50%;
-height: 100%;
+    width: 50%;
+    height: 100%;
+    margin-left: 70px;
 }
 
 .imagenxL{
-width: 100%;
-height: 100%;
-margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 10%; */
 }
+.Img1{
+    width: 70px;
+    height: 60px;
+}
+
+.contenedorBotonFlecha{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+}
+
+.BoxFlecha{
+    margin-left: 120px;
+}
+         

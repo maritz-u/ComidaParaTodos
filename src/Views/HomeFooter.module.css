@@ -1,0 +1,117 @@
+.ContainerFooter{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.ImgColaboradores{
+    width: 100%;
+    height: 50%;
+}
+
+.LogosColaboradores{
+    width: 100%;
+}
+
+.BoxColaboradores{
+    width: 100%;
+    height: 70%;
+
+    background: #FCF5EB;
+}
+
+.TextoColaboradores{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+/* Mitad del footer que es celeste*/
+
+.BoxFooter{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    
+    
+    background-color: #2CB7E5;
+    width: 100%;
+    height: 30%;
+}
+
+.ContenedorLogo{
+    width: 7%;
+    margin-top: 20px;
+}
+
+.LogoFooter{
+    width: 100%;
+}
+
+.ContainerNewsletter{
+    margin-top: 20px;
+}
+
+.ContainerNewsletter p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.InputBoton{
+    margin-top: 20px;
+}
+
+.inputNewsletter1, .inputNewsletter2 {
+    height: 40px;
+    width: 250px;
+    left: 234px;
+    top: 121px;
+    border-radius: 5px;
+    border: none;
+}
+
+.inputNewsletter2{
+    margin-left: 50px;
+}
+
+.BtnSuscribirse{
+    flex: 1 1 auto;
+    filter: opacity(0.9);
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #ff5920;
+    height: 45px;
+    width: 180px;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.TextRRSS{
+    margin-top: 20px;
+}
+
+.TextRRSS h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.IconRRSS{
+    height: 40px
+}

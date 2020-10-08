@@ -1,10 +1,10 @@
 import React from "react";
 import FlechaC from "../img/flechaIconC.png";
-
+import styles from "../Components/Flecha.module.css";
 const FlechaColor = () => {
   return (
     <div>
-      <img src={FlechaC} alt=""></img>
+      <img className={styles.Flecha} src={FlechaC} alt=""></img>
     </div>
   );
 };
