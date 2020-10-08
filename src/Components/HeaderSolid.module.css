@@ -1,19 +1,17 @@
-.containerHeader {
+.containerHeaderW {
     /* display: flex;
     flex-flow: row;
     align-items: center;
     height: 100%;
     margin-top: 0;
     justify-content: center; */
-    background-color: transparent;
+    background-color: #ffffff;
     /* background-color: #FCF5EB; */
     /* background-color: lightgray; */
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%; 
-    
-   
 }
 
 .logonav {
@@ -30,8 +28,8 @@
 }
   
 .navbar .alternativas{
-   justify-content: space-around;
-    color: #ffffff;
+    justify-content: space-around;
+    color: #333333;
     background: transparent;
     border: none;
     font-size: 16px;
@@ -39,8 +37,6 @@
     font-weight: bold;
     text-decoration: none;
     margin-top: 30px;
-    outline: none;
-    cursor: pointer;
 }
   
 .opciones{
@@ -48,27 +44,27 @@
     font-family: "Montserrat", sans-serif;
     background-color: #f2f2f2;
     size: 6px;
-   }
+}
      
-.SocialContainer {
+.SocialContainerW {
     display: flex;
     /* justify-content: end; */
     /* flex-flow: row ; */
     /* height: 40px ; */
  }
 
- .SocialIcon{
+.SocialIcon{
     margin-top: 15px;
     height: 40px;
 }
 
-.BtnDonar {
+.BtnDonarW{
     flex: 1 1 auto;
     filter: opacity(0.9);
     font-family: "Montserrat", sans-serif;
     border: none;
     border-radius: 6px;
-    color: #ffffff;
+    color: #ffffff ;
     background-color: #ff5920;
     height: 45px;
     width: 180px;
@@ -76,11 +72,11 @@
     font-weight: bold;
 }
 
-.BtnDonar a {
+ .BtnDonarW a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.BtnDonar:hover {
+.BtnDonarW:hover {
     background-color: blueviolet;
 }

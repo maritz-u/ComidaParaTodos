@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "../Views/HomeCarrusel.module.css";
 import Flecha from "../Components/Flecha";
-
-
+import SlideCarousel from "../Components/Carrusel";
 const Carrusel= () => {
     return(
-    <div className={styles.ContainerCarrusel}>
-        <div className={styles.ContainerTexto}>
+    <div >
+       <SlideCarousel/>
+        {/* <div className={styles.ContainerTexto}>
             <p>(PMA, 2020)</p>
             <h1>LA INSEGURIDAD ALIMENTARIA </h1>
             <h1>AGUDA AUMENTARÁ A 265 MILLONES</h1>
@@ -18,7 +17,7 @@ const Carrusel= () => {
             <div className={styles.FlechaCarrusel}>
             <Flecha/>
             </div>
-         </div>
+         </div> */}
     </div>
  )
 };
