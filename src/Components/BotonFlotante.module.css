@@ -1,7 +1,7 @@
 .btnFloatDonar{
     /* flex: 1 1 auto; */
     margin-top: 50px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
     border: none;
     border-radius: 6px;
     color: #ffffff;

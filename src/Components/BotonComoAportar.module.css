@@ -1,7 +1,7 @@
 
 .btnAportar{
     flex: 1 1 auto;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
     border: 2px solid #ff5920;
     border-radius: 6px;
     background-color: #ffffff;
