@@ -3,6 +3,7 @@
    flex-flow: column;
    background-color:  #FCF5EB;
    height: 100vh;
+   width: 100%;
 }
 
 .cajaTextos{
