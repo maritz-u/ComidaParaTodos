@@ -18,14 +18,14 @@
     color: #ffffff;
     height: 20px;
     width: 100%;
-    font-family: "Montserrat", sans-serif ;
+    font-family: "Montserrat", sans-serif !important;
     padding-left: 10%;
-    font-size: 60px;
+    font-size: 60px !important;
 }
     
 .boxtextprincipal h3{
-    font-family: 'Lora', serif ;
-    font-size: 32px;
+    font-family: 'Lora', serif !important;
+    font-size: 32px !important;
     color: #ffffff;
     height:auto;
     width: 748px;
