@@ -30,20 +30,14 @@
     height:auto;
     width: 748px;
     padding-left: 10%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 5px;
 }
-/* 
-.BotonFlecha{
-    display: flex;
-    flex-flow:row;
-    align-items: center;
+
+.btncomofunciona{
+    margin-left: 3.5%;
 }
 
-.btnFloat{
-   
-}
-
-.flecha{
-
-} */
+.Flechaprimerapantalla{
+   margin-left: 45%;
+} 
