@@ -14,8 +14,8 @@ const Proposito = () => {
         <div className={styles.text1}>
           <h3> - Comida para todos - </h3>
           <h1>PROPÓSITO</h1>
-        </div>
-        <div className={styles.text2}>
+         </div>
+         <div className={styles.text2}>
           <p>
             Somos una plataforma solidaria que nace de la unión de
             organizaciones sociales, que busca salvaguardar la Seguridad
@@ -33,6 +33,7 @@ const Proposito = () => {
             de las contingencias.
           </p>
          <br></br>
+        
           <img className={styles.Img1}  src={homeBIconB} alt="" />
           <p>
             Educar en materias de alimentación saludable, para fomentar la

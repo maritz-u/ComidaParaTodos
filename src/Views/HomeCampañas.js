@@ -45,6 +45,7 @@ const Campañas = () => {
       <div className={styles.CajaImgCaballero}>
         <img className={styles.ImgCaballero} src={FotoCaballero} alt=""></img>
       </div>
+
     </div>
   );
 };
