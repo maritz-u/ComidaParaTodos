@@ -7,6 +7,7 @@ import homeBIconB from "../img/homeBIconB.png";
 import homeBIconC from "../img/homeBIconC.png";
 import FlechaColor from "../Components/FlechaColor";
 
+
 const Proposito = () => {
   return (
     <div className={styles.cajaSegundaPantalla}>
