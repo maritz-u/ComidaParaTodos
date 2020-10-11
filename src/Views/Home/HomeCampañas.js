@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../Views/HomeCampañas.module.css";
-import FotoCaballero from "../img/homeE.png";
-import BotonComoAportar from "../Components/BotonComoAportar";
-import FlechaColor from "../Components/FlechaColor";
+import styles from "../Home/HomeCampañas.module.css";
+import FotoCaballero from "../../img/homeE.png";
+import BotonComoAportar from "../../Components/BotonComoAportar";
+import FlechaColor from "../../Components/FlechaColor";
 
 const Campañas = () => {
   return (

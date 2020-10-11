@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-image: url("../img/HeaderMujer.png");
+    background-image: url("../../img/HeaderMujer.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

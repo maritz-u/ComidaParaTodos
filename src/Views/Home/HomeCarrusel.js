@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../Components/Header";
-import Carrusel1 from "../img/Carrusel1.png";
-import Carrusel2 from "../img/Carrusel2.png";
-import Carrusel3 from "../img/Carrusel3.png";
-import Carrusel4 from "../img/Carrusel4.png";
+import Header from "../../Components/Header";
+import Carrusel1 from "../../img/Carrusel1.png";
+import Carrusel2 from "../../img/Carrusel2.png";
+import Carrusel3 from "../../img/Carrusel3.png";
+import Carrusel4 from "../../img/Carrusel4.png";
 
 const Carrusel = () => {
     return (

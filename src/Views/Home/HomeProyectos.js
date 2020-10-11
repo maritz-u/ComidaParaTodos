@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../Views/HomeProyectos.module.css";
-import icon1 from "../img/HomeF_banco.png";
-import icon2 from "../img/HomeF_escuela.png";
-import FlechaColor from "../Components/FlechaColor";
+import styles from "../Home/HomeProyectos.module.css";
+import icon1 from "../../img/HomeF_banco.png";
+import icon2 from "../../img/HomeF_escuela.png";
+import FlechaColor from "../../Components/FlechaColor";
 
 const Proyectos = () => {
   return (
