@@ -38,8 +38,7 @@ h3{
     width: 100%;
     height: 180px;
     left: 507px;
-    top: 286px;
-    
+    top: 286px;    
 }
 
 .Boton1, .Boton2, .Boton3, .Boton4, .Boton5, .Boton6{
@@ -70,10 +69,7 @@ h3{
 
 .CajatresBotones{
     display:flex;
-    flex-flow: row;
-   
-    
-    
+    flex-flow: row;  
 }
 
 img{
