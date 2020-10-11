@@ -1,16 +1,16 @@
 import React from "react";
-import BotonFlotante from "../Components/BotonFlotante";
+import BotonFlotante from "../../Components/BotonFlotante";
 import styles from "../Views/Home.module.css";
-import Flecha from "../Components/Flecha";
+import Flecha from "../../Components/Flecha";
 import Proposito from "./HomeProposito";
 import Aportar from "./HomeAportar";
 import Carrusel from "./HomeCarrusel";
 import Campañas from "./HomeCampañas";
 import Proyectos from "./HomeProyectos";
 import Footer from "./HomeFooter";
-import Header from "../Components/Header";
+import Header from "../../Components/Header";
 import ReactFullpage from '@fullpage/react-fullpage'; 
-import HomeSumate from "../Views/HomeSumate";
+import HomeSumate from "../Sumate/HomeSumate";
 
 
 const Home = () => (

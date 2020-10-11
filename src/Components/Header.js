@@ -4,6 +4,7 @@ import styles from './Header.module.css';
 import InstagramC from '../img/InstagramIcon.png';
 import TwitterC from '../img/TwitterIcon.png';
 import mailC from '../img/mailIcon.png';
+import SumateHuertos from '../Views/SumateHuertos'
 
 
 const Header = () => {
@@ -18,30 +19,30 @@ const Header = () => {
           <nav>
             
               <select className={styles.alternativas}>
-                <option className={styles.opciones} href="">  Red solidaria </option>
-                <option className={styles.opciones} href="">  Nos preocupa</option>
-                <option className={styles.opciones} href="">  Situación país</option>
-                <option className={styles.opciones} href="">  Nuestra receta </option>
-                <option className={styles.opciones} href="">  Quién recibe la ayuda  </option>
-                <option className={styles.opciones} href="">  Proyectos</option>
-                <option className={styles.opciones} href="">  Alianzas </option>
+                <option className={styles.opciones} value='all'>  Red solidaria </option>
+                <option className={styles.opciones} value=''>  Nos preocupa</option>
+                <option className={styles.opciones} value=''>  Situación país</option>
+                <option className={styles.opciones} value=''>  Nuestra receta </option>
+                <option className={styles.opciones} value=''>  Quién recibe la ayuda  </option>
+                <option className={styles.opciones} value=''>  Proyectos</option>
+                <option className={styles.opciones} value=''>  Alianzas </option>
               </select>
         
 
          
               <select className={styles.alternativas}>
-                <option className={styles.opciones} href=""> Campañas </option>
-                <option className={styles.opciones} href=""> Campaña de emergencia </option>
-                <option className={styles.opciones} href=""> Navidad para todos </option>
-                <option className={styles.opciones} href=""> Año nuevo para todos </option>
+                <option className={styles.opciones} value=''> Campañas </option>
+                <option className={styles.opciones} value=''> Campaña de emergencia </option>
+                <option className={styles.opciones} value=''> Navidad para todos </option>
+                <option className={styles.opciones} value=''> Año nuevo para todos </option>
               </select>
           
 
            
               <select className={styles.alternativas}>
-                <option className={styles.opciones} href="">  Proyectos </option>
-                <option className={styles.opciones} href="">  Banco de alimentos </option>
-                <option className={styles.opciones} href="">  Escuela de comida para todos </option>
+                <option className={styles.opciones} value=''>  Proyectos </option>
+                <option className={styles.opciones} value=''>  Banco de alimentos </option>
+                <option className={styles.opciones} value=''>  Escuela de comida para todos </option>
               </select>
         
 
@@ -49,21 +50,21 @@ const Header = () => {
 
            
               <select className={styles.alternativas}>
-                <option className={styles.opciones} href="">  Testimonios </option>
-                <option className={styles.opciones} href="">  Testimonios </option>
-                <option className={styles.opciones} href="">  Prensa </option>
-                <option className={styles.opciones} href="">  Registro del impacto </option>
+                <option className={styles.opciones} value=''>  Testimonios </option>
+                <option className={styles.opciones} value=''>  Testimonios </option>
+                <option className={styles.opciones} value=''>  Prensa </option>
+                <option className={styles.opciones} value=''>  Registro del impacto </option>
               </select>
     
 
           
               <select className={styles.alternativas}>
-                <option className={styles.opciones} href=""> Súmate </option>
-                <option className={styles.opciones} href=""> Soy una empresa  </option>
-                <option className={styles.opciones} href=""> Soy transportista </option>
-                <option className={styles.opciones} href=""> Soy un restaurant </option>
-                <option className={styles.opciones} href=""> Soy productor</option>
-                <option className={styles.opciones} href=""> Vivo en un sector</option>
+                <option className={styles.opciones} value='' > Súmate  </option>
+                <option className={styles.opciones} value=''> Soy una empresa  </option>
+                <option className={styles.opciones} value=''> Soy transportista </option>
+                <option className={styles.opciones} value=''> Soy un restaurant </option>
+                <option className={styles.opciones} value=''> Soy productor</option>
+                <option className={styles.opciones} value=''> Vivo en un sector</option>
 
               </select>
           
