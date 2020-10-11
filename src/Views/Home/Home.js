@@ -12,6 +12,7 @@ import Header from "../../Components/Header";
 import ReactFullpage from '@fullpage/react-fullpage';
 import HomeSumate from "../Sumate/HomeSumate";
 import { Link } from "react-router-dom";
+import Compartir from "../../Components/Compartir";
 
 
 const Home = () => (
@@ -47,6 +48,7 @@ const Home = () => (
             <div className={styles.Flechaprimerapantalla}>
               <Flecha />
             </div>
+            <Compartir />
           </div>
           <div className={"section"}>
             <Proposito />
