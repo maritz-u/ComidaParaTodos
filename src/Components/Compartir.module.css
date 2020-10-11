@@ -1,13 +1,18 @@
 
 .iconsBotton{
-    height: 40px;
-    background-color: #ffffff;
+    height: 80px;
+ 
     border-radius: 6px;
    
 }
-
-.iconSize{
-    height: 40px;
-    background-color: #ff5920;
-    border-radius: 6px;
-}
+/* 
+ .compartir {
+   position: fixed; 
+    display: flex;
+    
+    bottom: 10%;
+   
+  width: 300px;
+    z-index: 2000;
+   
+}  */
