@@ -1,11 +1,11 @@
 import React from "react";
-import BotonComoAportar from "../Components/BotonComoAportar";
-import styles from "../Views/HomeProposito.module.css";
-import homeBinfo from "../img/homeBinfo.png";
-import homeBIcon from "../img/homeBIcon.png";
-import homeBIconB from "../img/homeBIconB.png";
-import homeBIconC from "../img/homeBIconC.png";
-import FlechaColor from "../Components/FlechaColor";
+import BotonComoAportar from "../../Components/BotonComoAportar";
+import styles from "../Home/HomeProposito.module.css";
+import homeBinfo from "../../img/homeBinfo.png";
+import homeBIcon from "../../img/homeBIcon.png";
+import homeBIconB from "../../img/homeBIconB.png";
+import homeBIconC from "../../img/homeBIconC.png";
+import FlechaColor from "../../Components/FlechaColor";
 
 const Proposito = () => {
   return (

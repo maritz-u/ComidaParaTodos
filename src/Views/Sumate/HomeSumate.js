@@ -1,15 +1,14 @@
 import React from "react";
-import Header from "../Components/Header";
-import SumateHuertos from "../Views/SumateHuertos";
-import SumateTrabajemos from "../Views/SumateTrabajemos";
-import styles from "../Views/HomeSumate.module.css";
-import FlechaColor from "../Components/FlechaColor";
-import Icon1 from "../img/homeB2icon1.png";
-import Icon2 from "../img/homeB2icon2.png";
-import Icon3 from "../img/homeB2icon3.png";
-import Icon4 from "../img/homeB2icon4.png";
-import Icon5 from "../img/homeB2icon5.png";
-import Icon6 from "../img/homeB2icon6.png";
+import Header from "../../Components/Header";
+
+import styles from "../Sumate/HomeSumate.module.css";
+import FlechaColor from "../../Components/FlechaColor";
+import Icon1 from "../../img/homeB2icon1.png";
+import Icon2 from "../../img/homeB2icon2.png";
+import Icon3 from "../../img/homeB2icon3.png";
+import Icon4 from "../../img/homeB2icon4.png";
+import Icon5 from "../../img/homeB2icon5.png";
+import Icon6 from "../../img/homeB2icon6.png";
 
 
 const HomeSumate = () => {

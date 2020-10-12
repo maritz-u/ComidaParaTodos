@@ -1,0 +1,63 @@
+/* .ContainerCarrusel{
+    display: flex;
+    flex-flow: column;
+   
+    background-image: url("../img/lettuce.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ContainerTexto{
+    display: flex;
+    flex-flow: column;
+    border-top: 5px solid #ff5920;
+    border-bottom: 5px solid #ff5920;
+
+    width: 50%;
+    padding: 10px 0px 0px 10%;
+}
+
+.ContainerTexto h1{
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.ContainerTexto p{
+    font-family: Lora;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.cajaBotonLeerMas{
+    display: flex;
+    flex-flow: row;
+}
+
+.botonLeerMas{
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #ff5920;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color:  #ff5920;
+    height: 45px;
+    width: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+.FlechaCarrusel{
+    margin-left: 35%;
+} */

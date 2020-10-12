@@ -1,12 +1,13 @@
 import React from "react";
-import FlechaColor from "../Components/FlechaColor";
-import styles from "../Views/HomeAportar.module.css";
-import icon1 from '../img/homeB2icon1.png';
-import icon2 from '../img/homeB2icon2.png';
-import icon3 from '../img/homeB2icon3.png';
-import icon4 from '../img/homeB2icon4.png';
-import icon5 from '../img/homeB2icon5.png';
-import icon6 from '../img/homeB2icon6.png';
+import FlechaColor from "../../Components/FlechaColor";
+import styles from "../Home/HomeAportar.module.css";
+import icon1 from '../../img/homeB2icon1.png';
+import icon2 from '../../img/homeB2icon2.png';
+import icon3 from '../../img/homeB2icon3.png';
+import icon4 from '../../img/homeB2icon4.png';
+import icon5 from '../../img/homeB2icon5.png';
+import icon6 from '../../img/homeB2icon6.png';
+
 
 
 const Aportar = () => {

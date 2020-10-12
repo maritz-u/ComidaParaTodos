@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-image: url("../img/HeaderMujer.png");
+    background-image: url("../../img/HeaderMujer.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -101,3 +101,15 @@
 
     }
 
+.Flechaprimerapantalla{
+   margin-left: 45%;
+} 
+
+.compartir {
+    /* position: fixed; */
+    bottom: 5%;
+    right: 0;
+    width: 300px;
+    z-index: 2000;
+   
+}

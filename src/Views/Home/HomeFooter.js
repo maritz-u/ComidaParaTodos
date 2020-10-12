@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "../Views/HomeFooter.module.css";
-import ImgColaboradores from "../img/HomeG_logos.png";
-import ImgLogo from "../img/LogoXL.png";
-import InstagramW from "../img/InstagramIconW.png";
-import TwitterW from "../img/TwitterIconW.png"
-import MailW from "../img/mailIconW.png";
+import styles from "../Home/HomeFooter.module.css";
+import ImgColaboradores from "../../img/HomeG_logos.png";
+import ImgLogo from "../../img/LogoXL.png";
+import InstagramW from "../../img/InstagramIconW.png";
+import TwitterW from "../../img/TwitterIconW.png"
+import MailW from "../../img/mailIconW.png";
 
 const Footer = () => {
   return (
