@@ -1,8 +1,8 @@
 import React from "react";
-import FlechaColor from "../Components/FlechaColor";
-import styles from "../Views/SumateHuertos.module.css";
-import FotoHuertos from "../img/sumate-huertos.png";
-import IconoHuerto1 from "../img/homeB2icon4.png";
+import FlechaColor from "../../Components/FlechaColor";
+import styles from "../Sumate/SumateHuertos.module.css";
+import FotoHuertos from "../../img/sumate-huertos.png";
+import IconoHuerto1 from "../../img/homeB2icon4.png";
 const SumateHuertos = () => {
     return (
         <div className={styles.ContainerHuerto}>

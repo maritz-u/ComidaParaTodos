@@ -10,7 +10,6 @@ import Proyectos from "../Home/HomeProyectos";
 import Footer from "../Home/HomeFooter";
 import Header from "../../Components/Header";
 import ReactFullpage from '@fullpage/react-fullpage';
-import HomeSumate from "../Sumate/HomeSumate";
 import { Link } from "react-router-dom";
 import Compartir from "../../Components/Compartir";
 
@@ -68,9 +67,6 @@ const Home = () => (
           </div>
           <div className={"section"}>
             <Footer />
-          </div>
-          <div className={"section"}>
-            <HomeSumate/>
           </div>
         </ReactFullpage.Wrapper>
       );

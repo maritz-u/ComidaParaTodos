@@ -1,8 +1,8 @@
 import React from "react";
-import FlechaColor from "../Components/FlechaColor";
-import styles from "../Views/SumateTrabajemos.module.css";
-import sumateTrabaja from "../img/sumate-trabaja.png";
-import IconOlla from "../img/homeB2icon1.png";
+import FlechaColor from "../../Components/FlechaColor";
+import styles from "../Sumate/SumateTrabajemos.module.css";
+import sumateTrabaja from "../../img/sumate-trabaja.png";
+import IconOlla from "../../img/homeB2icon1.png";
 
 const SumateTrabajemos = () => {
   return (
