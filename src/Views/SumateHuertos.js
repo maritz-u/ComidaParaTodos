@@ -1,6 +1,8 @@
 import React from "react";
 import FlechaColor from "../Components/FlechaColor";
 import styles from "../Views/SumateHuertos.module.css";
+import FotoHuertos from "../img/sumate-huertos.png";
+import IconoHuerto1 from "../img/homeB2icon4.png";
 const SumateHuertos = () => {
     return (
         <div className={styles.ContainerHuerto}>
@@ -8,8 +10,11 @@ const SumateHuertos = () => {
                 <div className={styles.TextoHuerto} >
                     <h3>- Súmate a Nuestra red -</h3>
                     <div className={styles.TextoImagenHuerto}>
-                        <div className={styles.TextH1}>
+                        <div className={styles.TextH1huerto}>
                             <h1>DONA HUERTOS</h1>
+                            <div className={styles.TextoIconoHuerto} >
+                            <img className={styles.IconoHuerto} src={IconoHuerto1} alt="" />
+                            </div>
                         </div>
                     </div>
 
@@ -17,24 +22,31 @@ const SumateHuertos = () => {
                 <div className={styles.FormularioHuerto}>
 
                     <p>Nombre</p>
-                    <input type="text" name="nombre"></input>
+                    <input className={styles.InputHuerto} type="text"></input>
 
                     <p>Número de Contacto</p>
-                    <input type="text" name="apellidos"></input>
+                    <input className={styles.InputHuerto} type="text"></input>
 
                     <p>Correo Electrónico</p>
-                    <input type="text" name="nacionalidad"></input>
-                    <div>
-                        <p>Ubicación del huerto urbano</p>
-                        <input type="text" name="nacionalidad"></input>
-                        <p>Metros Cuadrados</p>
-                        <input type="text" name="nacionalidad"></input>
+                    <input className={styles.InputHuerto} type="text" ></input>
+                    <div className={styles.HuertoHubicacion}>
+                        <div>
+                            <p>Ubicación del huerto urbano</p>
+                            <input className={styles.InputHuerto} type="text"></input>
+                        </div>
+                        <div>
+                            <p>Metros Cuadrados</p>
+                            <input className={styles.InputHuerto} type="text"></input>
+                        </div>
                     </div>
                     <p>Especificaciones</p>
-                    <input type="text" name="nacionalidad"></input>
-                </div>
+                    <input className={styles.InputHuerto} type="text"></input>
+                </div> 
+                <br></br>
                 <div className={styles.BtonHuerto}>
-                    <div></div>
+                    <div>
+                        <button className={styles.btnDonarH}>Donar un huerto</button>
+                    </div>
                     <div>¿Dónde va mi aporte?</div>
                 </div>
             </div>
@@ -52,24 +64,19 @@ const SumateHuertos = () => {
                     <p>Puedes aportar con espacios verdes,</p>
                     <p>¡únete a nuestra red!</p>
                     <br></br>
-                    <p>Te contactaremos para coordinar la</p>
-                    <p>entrega y contarte más del proceso.</p>
+                    <p><strong>Te contactaremos para coordinar la</strong></p>
+                    <p><strong>entrega y contarte más del proceso.</strong></p>
 
                 </div>
-                <div className={styles.FlecchaHuerto}>
-                    <FlechaColor/>
+                <div className={styles.FlechaHuerto}>
+                    <FlechaColor />
                 </div>
             </div>
             <div className={styles.BoxHuerto3}>
-                <div className={styles.ImgHuerto}></div>
+                <div className={styles.ImgHuerto}>
+                    <img className={styles.SumaHuerto} src={FotoHuertos} alt="" />
+                </div>
             </div>
-
-
-
-
-
-
-
         </div>
     );
 };
