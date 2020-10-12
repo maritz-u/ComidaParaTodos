@@ -10,7 +10,7 @@ import Proyectos from "./HomeProyectos";
 import Footer from "./HomeFooter";
 import Header from "../Components/Header";
 import ReactFullpage from '@fullpage/react-fullpage'; 
-import HomeSumate from "../Views/HomeSumate";
+import HomeSumate from "../Views/SumateHuertos";
 
 
 const Home = () => (
@@ -55,7 +55,7 @@ const Home = () => (
             <Footer />
           </div>
           <div className={"section"}>
-            <HomeSumate />
+            <HomeSumate/>
           </div>
         </ReactFullpage.Wrapper>
       );

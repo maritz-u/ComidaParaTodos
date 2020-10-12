@@ -13,6 +13,28 @@
     cursor: pointer;
     margin-left: 100px;
 }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3)
+    {
+        .btnFloatDonar{
+            /* flex: 1 1 auto; */
+            margin-top: 50px;
+            font-family: "Montserrat", sans-serif;
+            border: none;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #ff5920;
+            height:30px;
+            width: 130px;
+            font-weight: bold;
+            outline: none;
+            cursor: pointer;
+            margin-left: 120px;}
+
+        }
+        
 
 
 
@@ -20,3 +42,6 @@
 
 
 
+
+
+    

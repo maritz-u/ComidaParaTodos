@@ -1,0 +1,118 @@
+.ContainerHuerto{
+display: flex;
+flex-flow: row;
+height: 100vh;
+background-color: #fcf5eB;
+
+}
+.BoxHuerto1{
+display: flex;
+flex-flow: column;
+width: 40%;
+height: 100%;
+}
+.TextoHuerto{
+ flex-flow: column;
+ margin-left: 20px;
+ line-Height:20px;
+ 
+}
+.TextH1huerto{
+display: flex;
+flex-flow: row;
+align-items: center;
+
+
+}
+
+.InputHuerto{
+ border-radius: 5px;
+ border: none;
+
+}
+
+
+.TextoImagenHuerto{
+ flex-direction: row;
+ margin-top: -50px;   
+}
+.TextoIconoHuerto{
+    margin-top: -30px; 
+
+
+}
+
+.FormularioHuerto{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    width: 80%;
+    margin-left: 20px;
+
+
+}
+
+
+.HuertoHubicacion{
+display: flex;
+flex-flow: row;
+justify-content: space-between
+
+}
+.BtonHuerto{
+display: flex;
+flex-flow: row;
+margin-left:20px; 
+align-items: center;
+color: #ff5920;
+
+}
+
+.btnDonarH{
+    flex: 1 1 auto;
+    font-family: "Montserrat", sans-serif !important ;
+    border: 2px solid #ff5920;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color:  #ff5920;
+    height: 45px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.BoxHuerto2{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 20px; 
+    margin-top: 20px; 
+
+}
+
+
+
+.FlechaHuerto{
+text-align: center;
+margin-right: 20%;
+
+
+}
+.BoxHuerto3{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    height: 100%;
+}
+.SumaHuerto{
+width: 100%;
+
+}
+
+
+
+
