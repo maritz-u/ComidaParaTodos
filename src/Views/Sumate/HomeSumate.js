@@ -10,12 +10,21 @@ import Icon5 from "../../img/homeB2icon5.png";
 import Icon6 from "../../img/homeB2icon6.png";
 import SumateHuertos from "../Sumate/SumateHuertos";
 import SumateTrabajemos from "../Sumate/SumateTrabajemos";
+import ReactFullpage from '@fullpage/react-fullpage';
 
 
-const HomeSumate = () => {
-  return (
-    <div className={styles.BoxPadre}>
-         
+const HomeSumate = () => (
+  <ReactFullpage
+  //fullpage options
+  licenseKey={'YOUR_KEY_HERE'}
+  scrollingSpeed={1000} /* Options here */
+  responsiveSlides={true}
+  controlArrows={false}
+  render={({ state, fullpageApi }) => {
+    return (
+      <ReactFullpage.Wrapper>
+        <div className={[styles.BoxPadre, "section"].join(' ')} >
+
         <Header />
         <div className={styles.BoxTitulos}>
           <h3>- Súmate a nuestra red solidaria -</h3>
@@ -71,13 +80,19 @@ const HomeSumate = () => {
         </div>
         </div>
          <FlechaColor/>
-    
-    <div>
-      <SumateHuertos />
-      <SumateTrabajemos />
-    </div>
-    </div>
-  );
-};
+         </div>
+   
+         <div className={"section"}>
+            <SumateHuertos/>
+          </div>
+          <div className={"section"}>
+            <SumateTrabajemos />
+          </div>
+        </ReactFullpage.Wrapper>
+      );
+    }}
+  />
+);
+
 
 export default HomeSumate;
