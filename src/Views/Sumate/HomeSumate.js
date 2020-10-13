@@ -86,7 +86,7 @@ const HomeSumate = () => (
             <SumateHuertos/>
           </div>
           <div className={"section"}>
-            <SumateTrabajemos />
+           <SumateTrabajemos />
           </div>
         </ReactFullpage.Wrapper>
       );

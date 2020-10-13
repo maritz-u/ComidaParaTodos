@@ -32,14 +32,14 @@ const Home = () => (
               <h1>SOMOS COMIDA PARA TODOS</h1>
               <h1>Y TE INVITAMOS A COMBATIR</h1>
               <h1>EL HAMBRE EN CHILE</h1>
-              <ul>
+              {/* <ul>
                 <li>
                   <Link to='/sumate' className={styles.opciones}></Link>
                 </li>
                 <li>
                   <Link to='/sumate'></Link>
                 </li>
-              </ul>
+              </ul> */}
               <div className={styles.btncomofunciona}>
                 <BotonFlotante />
               </div>

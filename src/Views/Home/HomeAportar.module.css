@@ -151,6 +151,12 @@ and (-webkit-device-pixel-ratio : 3){
 
 
     }
+    .FlechaAportar{
+    display: flex;
+    margin-top: 10%;
+
+
+    }
 
 
 
