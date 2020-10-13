@@ -7,11 +7,25 @@ flex-flow: row;
 .PrimerContenedor{
 display: flex;
 flex-flow: column;
-width: 70%;
+width:70%;
 height: 100%;
 margin-left: 20px;
 
 }
+
+.CajaTexto{
+    display: flex;
+    flex-flow: column;
+    margin-left: 50px; 
+    padding-top: 0%;
+}
+
+
+.CajaTexto2 h4,p { 
+
+    margin:0;
+}
+
 .BoxOlla{
 display: flex;
 flex-flow: column;
@@ -59,14 +73,20 @@ margin-top: 40px;
 
 }
 .InputTrabajemos{
-border-radius: 5px;
-border: none;
+    height: 40px;
+    width: 300px;
+    left: 40px;
+    top: 279px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;    
 
 }
 .Contactotrabajemos{
- display: flex;
+ display: inline;
  flex-flow: row;
-    
+
     
 }
 

@@ -12,10 +12,11 @@ const SumateHuertos = () => {
                     <div className={styles.TextoImagenHuerto}>
                         <div className={styles.TextH1huerto}>
                             <h1>DONA HUERTOS</h1>
-                            <div className={styles.TextoIconoHuerto} >
-                            <img className={styles.IconoHuerto} src={IconoHuerto1} alt="" />
                             </div>
-                        </div>
+                            <div className={styles.TextoIconoHuerto} >
+                                <img className={styles.IconoHuerto} src={IconoHuerto1} alt="" />
+                            </div>
+                       
                     </div>
 
                 </div>
@@ -29,19 +30,26 @@ const SumateHuertos = () => {
 
                     <p>Correo Electrónico</p>
                     <input className={styles.InputHuerto} type="text" ></input>
+                    <br></br>
                     <div className={styles.HuertoUbicacion}>
+
                         <div>
                             <p>Ubicación del huerto urbano</p>
                             <input className={styles.InputHuerto} type="text"></input>
                         </div>
+                        
                         <div>
                             <p>Metros Cuadrados</p>
-                            <input className={styles.InputHuerto} type="text"></input>
+                            
+                            <input className={styles.InputHuerto00} type="text"></input>
                         </div>
+
+
                     </div>
+                    
                     <p>Especificaciones</p>
                     <input className={styles.InputHuerto} type="text"></input>
-                </div> 
+                </div>
                 <br></br>
                 <div className={styles.BtonHuerto}>
                     <div>
