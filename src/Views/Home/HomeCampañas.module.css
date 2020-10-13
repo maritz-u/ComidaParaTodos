@@ -8,7 +8,7 @@
 .Cajatextos{
     display: flex;
     flex-flow: column;
-    width:100%;
+    width:50%;
     /* padding: 10px; */
     /* padding: 10px 0 10px 5px; */
     margin-left: 5px;
@@ -141,7 +141,7 @@ and (-webkit-device-pixel-ratio : 3){
         padding-top: 20px ;
     }
     .CajaImgCaballero{
-        width: 100%;
+        width: 50%;
         height: 100%;
     }
     
