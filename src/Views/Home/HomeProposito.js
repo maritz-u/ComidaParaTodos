@@ -33,7 +33,7 @@ const Proposito = () => {
             Generar y distribuir alimentación a quienes más lo necesitan a raíz
             de las contingencias.
           </p>
-          <br></br>
+          
         
           <img className={styles.Img1}  src={homeBIconB} alt="" />
           <p>
@@ -41,13 +41,13 @@ const Proposito = () => {
             mejora de calidad de vida.
           </p>
           <br></br>
-          
-          <img className={styles.Img1}  src={homeBIconC} alt="" />
           <p>
+          <img className={styles.Img1}  src={homeBIconC} alt="" />
+          
             Capacitar en materias de gastronomía a las comunidades y de esta
             manera generar oportunidades.
           </p>
-       
+         
         </div>
         <div className ={styles.contenedorBotonFlecha}> 
         <div className = {styles.btncomoaportar}>

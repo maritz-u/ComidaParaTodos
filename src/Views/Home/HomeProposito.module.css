@@ -9,7 +9,7 @@
 .boxPropositoText{
    padding-left: 20px;
    width: 40%;
-   padding-top: 20px;
+   padding-top: 5px;
 }
 
 
@@ -22,7 +22,7 @@
     line-height: 31px;
     text-align: left;
     color: #333;
-    padding-top: 50px;
+    padding-top: 30px;
 }
  .text1 h1{
     font-family: Montserrat !important;
@@ -68,7 +68,7 @@
     width: 50%;
     height: 100%;
     margin-left: 80px;
-    padding-top: -25px;
+    padding-top: -15px;
 }
 
 .imagenxL{
@@ -84,14 +84,13 @@
 .contenedorBotonFlecha{
     display: flex;
     flex-flow:row;
-    justify-content: space-between;
-    /* padding: 50px; */
+    justify-content: space-evenly; 
     padding-top: 10%;
+    padding-left: -25px;
 }
 
 .BoxFlecha{
-    margin-left: 20%;
-    padding-top: 5%;
+     margin-left: 80%; 
    
 }
 
