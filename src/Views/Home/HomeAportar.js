@@ -16,10 +16,13 @@ const Aportar = () => {
     <div className={styles.BigContainerAportar}>
 
       <div className={styles.cajaTextos}>
+        <div className={styles.cajaTextos12}>
       <h3>- Súmate a nuestra red -</h3>
+     </div>
+     <div className={styles.cajaTextos123} >
       <h1>¿CÓMO APORTAR?</h1>
       </div>
-      
+      </div>
       <div className={styles.BoxBotones}>
 
         <div className={styles.CajatresBotones}>
@@ -77,8 +80,7 @@ const Aportar = () => {
          
         </div>
         <br></br>
-        <br></br>
-        <br></br>
+        
         <div className={styles.FlechaAportar}>
         <FlechaColor />
         </div>
