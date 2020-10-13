@@ -26,6 +26,9 @@
     line-height: 27px;
     letter-spacing: 0px;
     text-align: left; 
+    margin: 0;
+   
+
 }
 
 .textos{
@@ -44,9 +47,26 @@
     align-items: center;
 }
 
+.FormularioHuerto{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    width: 80%;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: -10px;
+}
+ 
+
 .InputHuerto{
     height: 40px;
-    width: 427px;
+    width: 300px;
     left: 40px;
     top: 279px;
     border-radius: 6px;
@@ -55,31 +75,38 @@
     cursor: pointer;    
 }
 
-.TextoImagenHuerto{
- flex-direction: row;
- margin-top: -50px;   
+.InputHuerto00{
+    height: 40px;
+    width: 150px;
+    left: 40px;
+    top: 279px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;  
+    margin-right: 10PX;  
 }
 
-.FormularioHuerto{
-    display: flex;
-    flex-flow: column;
-    align-content: center;
-    width: 80%;
-    margin-left: 20px;
 
-    font-family: Montserrat;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0px;
-    text-align: left;
+
+.TextoImagenHuerto{
+    display: flex;
+    flex-direction: row;
+    margin-top: -45px;   
+}
+
+.TextoIconoHuerto{
+    margin-top: -40px;
 }
 
 .HuertoUbicacion{
     display: flex;
     flex-flow: row;
-    justify-content: space-between
+    /* justify-content: space-between */
+}
+
+.HuertoUbicacion p {
+    display: inline;
 }
 
 .BtonHuerto{
@@ -112,12 +139,15 @@
     width: 30%;
     height: 100%;
     margin-left: 20px; 
-    margin-top: 20px; 
+    padding-top: 10%;
 }
 
 .FlechaHuerto{
     text-align: center;
-    margin-right: 20%;
+    display: flex;
+padding-top: 28%;
+padding-left: 22%;
+
 }
 
 .BoxHuerto3{

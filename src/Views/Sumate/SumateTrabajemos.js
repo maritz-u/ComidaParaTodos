@@ -79,20 +79,21 @@ const SumateTrabajemos = () => {
             </div>
           </div>
           <div className={styles.CajaTexto}>
+<div  className={styles.CajaTexto2} >
+  
 
-            <h4>
-             {`Únete a nuestro modelo economía
-              circular y genera mayor impacto:`}
-            </h4>
+            <h4>  Únete a nuestro modelo de economía</h4>
+            <h4>  circular y genera mayor impacto: </h4>
          
             <p> <span>+</span> Compromiso social</p>
             <p> <span>+</span> Re activación de la actividad.</p>
             <p> <span>+</span> Estabilidad económica.</p>
-            <p> <span>+</span>Fuente de ingresos.</p>
+            <p> <span>+</span> Fuente de ingresos.</p>
             <p> <span>+</span> Fortalecimiento de sus redes</p>
             <p> <span>+</span> Estabilidad económica.</p>
             <p> <span>+</span> Fuente de ingresos.</p>
-            <p> <span>+</span>Re activación de la actividad.</p>
+            <p> <span>+</span> Re activación de la actividad.</p>
+            </div>
             <div>
               <FlechaColor />
             </div>
