@@ -8,7 +8,7 @@ const SumateHuertos = () => {
         <div className={styles.ContainerHuerto}>
             <div className={styles.BoxHuerto1}>
                 <div className={styles.TextoHuerto} >
-                    <h3>- Súmate a Nuestra red -</h3>
+                    <h3>- Súmate a nuestra red -</h3>
                     <div className={styles.TextoImagenHuerto}>
                         <div className={styles.TextH1huerto}>
                             <h1>DONA HUERTOS</h1>
@@ -29,7 +29,7 @@ const SumateHuertos = () => {
 
                     <p>Correo Electrónico</p>
                     <input className={styles.InputHuerto} type="text" ></input>
-                    <div className={styles.HuertoHubicacion}>
+                    <div className={styles.HuertoUbicacion}>
                         <div>
                             <p>Ubicación del huerto urbano</p>
                             <input className={styles.InputHuerto} type="text"></input>
@@ -47,7 +47,7 @@ const SumateHuertos = () => {
                     <div>
                         <button className={styles.btnDonarH}>Donar un huerto</button>
                     </div>
-                    <div>¿Dónde va mi aporte?</div>
+                    <div>¿A dónde va mi aporte?</div>
                 </div>
             </div>
             <div className={styles.BoxHuerto2} >
@@ -64,8 +64,8 @@ const SumateHuertos = () => {
                     <p>Puedes aportar con espacios verdes,</p>
                     <p>¡únete a nuestra red!</p>
                     <br></br>
-                    <p><strong>Te contactaremos para coordinar la</strong></p>
-                    <p><strong>entrega y contarte más del proceso.</strong></p>
+                    <p className={styles.texto}><strong>Te contactaremos para coordinar la</strong></p>
+                    <p className={styles.texto}><strong>entrega y contarte más del proceso.</strong></p>
 
                 </div>
                 <div className={styles.FlechaHuerto}>
