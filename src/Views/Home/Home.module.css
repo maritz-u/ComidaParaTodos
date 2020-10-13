@@ -35,14 +35,21 @@
     margin-bottom: 5px;
 }
 .Flechaprimerapantalla{
-padding-top: 2%;
-
-
-
-
+  padding-top: 5%;
 }
 
-
+.Flechaprimerapantalla{
+    margin-left: 45%;
+ } 
+ 
+ .compartir {
+     /* position: fixed; */
+     bottom: 5%;
+     right: 0;
+     width: 300px;
+     /* z-index: 2000;    */
+ }
+ 
 
 @media only screen 
     and (device-width : 375px) 
@@ -88,15 +95,4 @@ padding-top: 2%;
     margin-bottom: 5px;
 }
 
-.Flechaprimerapantalla{
-    margin-left: 45%;
-} 
-
-.compartir{
-    /* position: fixed; */
-    bottom: 5%;
-    right: 0;
-    width: 300px;
-    z-index: 2000;   
-}
     }
