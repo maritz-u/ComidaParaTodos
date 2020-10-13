@@ -10,8 +10,11 @@
 
 .BoxTitulos{
     color: white;
+    padding-left: 20px;
 }
-
+.BoxTitulos h1{
+    color: white;
+}
 
 .Boton1, .Boton2, .Boton3, .Boton4, .Boton5, .Boton6 {
     width: 160px;
