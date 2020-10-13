@@ -91,7 +91,7 @@ const Header = () => {
           <button className={styles.BtnDonar}>
             <a href="https://yodono.cl/proyecto/207/CultivaComidaparaTods"
               target="_blank" >
-              Dona un Almuerzo
+              Quiero aportar
                </a>
           </button>
         </div>
