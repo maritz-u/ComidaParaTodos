@@ -27,11 +27,11 @@
     /* align-items: center; */
 }
 
-.TextH1{
+.TextH2 h1{
     display: flex;
     flex-flow: column;
     /* align-items: center; */
-
+    color: #ffffff;
 }
 
 .ContainerProyectos h1{
@@ -152,11 +152,10 @@ and (-webkit-device-pixel-ratio : 3){
     /* align-items: center;  */
 }
 
-.TextH1{
+.TextH1 h1{
     display: flex;
     flex-flow: column;
     /* align-items: center; */
-
 }
 .IconImg{
     width: 90px ;

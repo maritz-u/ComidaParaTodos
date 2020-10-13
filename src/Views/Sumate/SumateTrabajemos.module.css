@@ -33,17 +33,23 @@ margin-top: -15px;
 
 }
 .ImgiconOlla{
-width: 100%;
-
+    width: 100%;
 }
 
-
 form {
-display: flex;
-flex-flow: row ;
-margin-top: 10px;
+    display: flex;
+    flex-flow: row ;
+    margin-top: 10px;
+}
 
-
+.FormularioYtxto p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
 .PrimerContenedor2{
@@ -105,8 +111,14 @@ width: 100%;
     text-align: left;
 }
 
+span{
+    color:#ff5920;
+    font-weight: bold;
+}
+
 a{
     color: #ff5920;
+    text-decoration: none;
 }
 
 .BtnTrabajar{ 

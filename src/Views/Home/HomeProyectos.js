@@ -37,7 +37,7 @@ const Proyectos = () => {
       <div className={styles.CajatextoDos}>
         <h3>- Proyectos 2030 -</h3>
         <div className={styles.TextoImagen}>
-          <div className={styles.TextH1}>
+          <div className={styles.TextH2}>
             <h1>ESCUELA </h1>
             <h1>PARA TODOS</h1>
           </div>
