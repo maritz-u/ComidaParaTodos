@@ -1,9 +1,9 @@
 
 .iconsBotton{
     height: 80px;
- 
     border-radius: 6px;
-   
+    float: right;
+   padding-right: 25px;
 }
 /* 
  .compartir {

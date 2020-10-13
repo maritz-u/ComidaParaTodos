@@ -74,14 +74,22 @@ const Aportar = () => {
               <p>Y necesitas alimentos, conocimiento y emprender </p>
             </a>
           </button>
-
+         
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className={styles.FlechaAportar}>
         <FlechaColor />
-      </div>
-
-    
+        </div>
+        </div>
+        
+        
+     
+        
 
     </div>
+    
   );
 };
 

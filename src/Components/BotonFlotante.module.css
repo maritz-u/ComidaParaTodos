@@ -12,6 +12,7 @@
     outline: none;
     cursor: pointer;
     margin-left: 100px;
+    font-size: 16px;
 }
 @media only screen 
     and (device-width : 375px) 
