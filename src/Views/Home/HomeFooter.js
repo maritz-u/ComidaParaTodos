@@ -34,6 +34,9 @@ const Footer = () => {
             <input className={styles.inputNewsletter1} type="text" placeholder="Nombre"></input>
             <input className={styles.inputNewsletter2} type="text" placeholder="Email"></input>
             <button className={styles.BtnSuscribirse}>Suscribirse</button>
+            <div className={styles.madeBy}>
+        <p>© 2020, Inc. 2020. We love our users! Made by {`<ReactIvas/>`}.</p>
+      </div>
           </div>
         </div>
         <div className={styles.TextRRSS}>
@@ -49,14 +52,10 @@ const Footer = () => {
             </a>
             <img className={styles.IconRRSS} src={MailW} alt="" />
           </div>
-
         </div>
-
+     
       </div>
-      <div className={styles.madeBy}>
-        <p>© 2020, Inc. 2020. We love our users! Made by {`<ReactIvas/>`}.</p>
-      </div>
-
+      
     </div>
 
   );

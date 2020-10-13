@@ -18,10 +18,8 @@ const Aportar = () => {
       <div className={styles.cajaTextos}>
         <div className={styles.cajaTextos12}>
       <h3>- Súmate a nuestra red -</h3>
-     </div>
-     <div className={styles.cajaTextos123} >
       <h1>¿CÓMO APORTAR?</h1>
-      </div>
+     </div>
       </div>
       <div className={styles.BoxBotones}>
 
