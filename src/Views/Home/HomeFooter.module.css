@@ -2,6 +2,16 @@
     display: flex;
     flex-flow: column;
     height: 100vh;
+    margin: 0;
+}
+h1{
+font-family: Montserrat !important;
+font-style: normal;
+font-weight: 800;
+font-size: 44px;
+line-height: 54px;
+
+color: #333333;
 }
 
 .ImgColaboradores{
@@ -11,12 +21,12 @@
 
 .LogosColaboradores{
     width: 100%;
+ 
 }
 
 .BoxColaboradores{
     width: 100%;
     height: 70%;
-
     background: #FCF5EB;
 }
 
@@ -25,22 +35,22 @@
     padding-left: 30px;
 }
 
+
+
 /* Mitad del footer que es celeste*/
 
 .BoxFooter{
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    
-    
     background-color: #2CB7E5;
     width: 100%;
-    height: 30%;
+    height: 40%;
 }
 
 .ContenedorLogo{
-    width: 7%;
-    margin-top: 20px;
+    padding-top: 4%;
+    width: 10%;
 }
 
 .LogoFooter{
@@ -64,20 +74,36 @@
 
 .InputBoton{
     margin-top: 20px;
+    margin-left: -2.3%;
+    /* display: flex;
+    justify-content: flex-end; */
+   
+   
 }
 
-.inputNewsletter1, .inputNewsletter2 {
+.inputNewsletter1, .inputNewsletter2{
+   margin-left: 20px;
     height: 40px;
     width: 250px;
-    left: 234px;
-    top: 121px;
     border-radius: 5px;
     border: none;
+    padding-left: 15px;
+    color: #828282;
+    font-size: 15px;
+    outline: none;
+   
 }
 
-.inputNewsletter2{
-    margin-left: 50px;
+.madeBy {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2CB7E5;
+    color: #ffffff;
+    padding-left: 23%;
+    font-size: 14px;
+  
 }
+
 
 .BtnSuscribirse{
     flex: 1 1 auto;
@@ -90,24 +116,24 @@
     height: 45px;
     width: 180px;
     margin-left: 20px;
-    margin-top: -5px;
+    margin-top: -2px;
     font-weight: bold;
     outline: none;
     cursor: pointer;
 }
 
-
 .TextRRSS{
-    margin-top: 20px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .TextRRSS h4{
     font-family: Montserrat;
-    font-size: 16px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140.1%;
     text-align: left;
     color: white;
 }
@@ -115,6 +141,7 @@
 .IconRRSS{
     height: 40px
 }
+
 @media only screen 
 and (device-width : 375px) 
 and (device-height : 812px) 
@@ -145,14 +172,15 @@ and (-webkit-device-pixel-ratio : 3){
     }
     
     .ContenedorLogo{
-        width: 20%;
+        width: 30%;
         margin-top: 20px;
     }
     
     .LogoFooter{
-        width: 100%;
+        width: 100%;  
     }
     
+
     .ContainerNewsletter{
         margin-top: 15px;
         align-items: center;
@@ -186,9 +214,9 @@ and (-webkit-device-pixel-ratio : 3){
         
     }
     
-   /*  .inputNewsletter2{
-     /*    margin-left: 25px; */
-   
+    .inputNewsletter2{
+        margin-left: 25px;
+    }
     
     .BtnSuscribirse{
         flex: 1 1 auto;
