@@ -1,186 +1,88 @@
-.cajaSegundaPantalla{
-    background-color: #FCF5EB;
-    display: flex;
-    flex-flow: row;
-    height: 100vh;
-    padding-left: 20px;
+.cajaSegundaPantalla {
+  background-color: #fcf5eb;
+  display: flex;
+  flex-flow: row;
+  height: 100vh;
+  padding-left: 20px;
 }
 
-.boxPropositoText{
-   padding-left: 20px;
-   width: 40%;
-   padding-top: 20px;
+.boxPropositoText {
+  padding-left: 20px;
+  width: 40%;
+  padding-top: 20px;
 }
 
-
-
-.text1{
-    font-family: Lora !important;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 31px;
-    text-align: left;
-    color: #333;
-    padding-top: 50px;
+.text1 {
+  font-family: Lora !important;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: left;
+  color: #333;
+  padding-top: 50px;
 }
- .text1 h1{
-    font-family: Montserrat !important;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 800;
-     /* line-height: 54px;  */
-    text-align: left;
-    margin: 0;
-    
+.text1 h1 {
+  font-family: Montserrat !important;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: 54px;  */
+  text-align: left;
+  margin: 0;
 }
-.text1 h3{
-    margin: 0;
-
+.text1 h3 {
+  margin: 0;
 }
 
-.text2{
-    font-family: Montserrat !important;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 27px;
-    text-align: left;
+.text2 {
+  font-family: Montserrat !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
 }
 
-.text3{
-    display: flex;
-    flex-flow: column;
-    font-family: Montserrat !important;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    display: inline;
-    letter-spacing: 0px;
-    text-align: left;
-   
-}
-   
-   
-
-.contenedorImagenXL{
-    width: 50%;
-    height: 100%;
-    margin-left: 80px;
-    padding-top: -25px;
+.text3 {
+  display: flex;
+  flex-flow: column;
+  font-family: Montserrat !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: inline;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
-.imagenxL{
-    width: 98%;
-    height: 100%;
-    margin-top: 10%;
-}
-.Img1{
-    width: 80px;
-    height: 80px;
+.contenedorImagenXL {
+  width: 50%;
+  height: 100%;
+  margin-left: 80px;
+  padding-top: -25px;
 }
 
-.contenedorBotonFlecha{
-    display: flex;
-    flex-flow:row;
-    justify-content: space-between;
-    /* padding: 50px; */
-    padding-top: 10%;
+.imagenxL {
+  width: 98%;
+  height: 100%;
+  /* margin-top: 10%; */
+}
+.Img1 {
+  width: 80px;
+  height: 80px;
 }
 
-.BoxFlecha{
-    margin-left: 20%;
-    padding-top: 5%;
-   
+.contenedorBotonFlecha {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  /* padding: 50px; */
+  padding-top: 10%;
 }
 
-.cajaSegundaPantalla{
-    background-color: #FCF5EB;
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    padding-left: 8px;
+.BoxFlecha {
+  margin-left: 20%;
+  padding-top: 5%;
 }
-
-.boxPropositoText{
-    padding-top: 5px;
-    padding-left: 0px;
-    width: 100%
-}
-     
-.text1{
-    font-family: Lora !important;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 220;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #333;
-    width: 100%;
-}
-    
-.text1 h1{
-       
-    font-family: Montserrat !important;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: left;
-}
-    
-.text2{
-        font-family: Montserrat !important;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 20px;
-        text-align: left;
-
-}
-    
-.text3{
-        font-family: Montserrat !important;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 150;
-        line-height: 15px;
-        letter-spacing: 0px;
-        text-align: left;
-        display: flex;
-        flex-flow: row;
-        width: 100%;
-        margin: 0%;
-        border: 0%;
-}
-    
-.Img1{
-        width: 30px;
-        height: 30px;
-}
-    
-.contenedorImagenXL{
-        height:  50%;
-        width: 100%;
-        margin: 0;
-}
-    
-.imagenxL{
-    width: 100%;
-    margin-top: 10%;
-}
-
-    
-
-
-
-
-
-
-
-
-
-
