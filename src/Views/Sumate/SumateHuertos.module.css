@@ -1,45 +1,63 @@
 .ContainerHuerto{
-display: flex;
-flex-flow: row;
-height: 100vh;
-background-color: #fcf5eB;
-
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
+    background-color: #fcf5eB;
 }
+
 .BoxHuerto1{
-display: flex;
-flex-flow: column;
-width: 40%;
-height: 100%;
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    height: 100%;
 }
+
 .TextoHuerto{
- flex-flow: column;
- margin-left: 20px;
- line-Height:20px;
- 
+    flex-flow: column;
+    margin-left: 20px;
+    line-Height:20px;
 }
+
+.TextoHuerto2 p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left; 
+}
+
+.textos{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
 .TextH1huerto{
-display: flex;
-flex-flow: row;
-align-items: center;
-
-
+    display: flex;
+    flex-flow: row;
+    align-items: center;
 }
 
 .InputHuerto{
- border-radius: 5px;
- border: none;
-
+    height: 40px;
+    width: 427px;
+    left: 40px;
+    top: 279px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;    
 }
-
 
 .TextoImagenHuerto{
  flex-direction: row;
  margin-top: -50px;   
-}
-.TextoIconoHuerto{
-    margin-top: -30px; 
-
-
 }
 
 .FormularioHuerto{
@@ -49,23 +67,27 @@ align-items: center;
     width: 80%;
     margin-left: 20px;
 
-
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
-
-.HuertoHubicacion{
-display: flex;
-flex-flow: row;
-justify-content: space-between
-
+.HuertoUbicacion{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between
 }
+
 .BtonHuerto{
-display: flex;
-flex-flow: row;
-margin-left:20px; 
-align-items: center;
-color: #ff5920;
-
+    display: flex;
+    flex-flow: row;
+    margin-left:20px; 
+    align-items: center;
+    color: #ff5920;
 }
 
 .btnDonarH{
@@ -91,26 +113,22 @@ color: #ff5920;
     height: 100%;
     margin-left: 20px; 
     margin-top: 20px; 
-
 }
-
-
 
 .FlechaHuerto{
-text-align: center;
-margin-right: 20%;
-
-
+    text-align: center;
+    margin-right: 20%;
 }
+
 .BoxHuerto3{
     display: flex;
     flex-flow: column;
     width: 30%;
     height: 100%;
 }
-.SumaHuerto{
-width: 100%;
 
+.SumaHuerto{
+    width: 100%;
 }
 
 

@@ -34,10 +34,10 @@ const Home = () => (
               <h1>EL HAMBRE EN CHILE</h1>
               {/* <ul>
                 <li>
-                  <Link to='/sumate' className={styles.opciones}>Red Solidaria </Link>
+                  <Link to='/sumate' className={styles.opciones}></Link>
                 </li>
                 <li>
-                  <Link to='/sumate'> bla</Link>
+                  <Link to='/sumate'></Link>
                 </li>
               </ul> */}
               <div className={styles.btncomofunciona}>
