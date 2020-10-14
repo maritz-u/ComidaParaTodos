@@ -9,7 +9,8 @@
     flex-flow: column;
     width: 50%;
     background-color:#fcf5eB ;
-    padding-left: 30px;
+    padding-left: 5%;
+    padding-top:5% ;
 }
 
 .CajatextoDos{
@@ -19,6 +20,7 @@
     background-color: #ff5920;
     padding-left: 60px;
     color: #ffffff;
+    padding-top:5% ;
 }
 
 .TextoImagen{
