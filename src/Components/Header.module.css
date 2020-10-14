@@ -1,20 +1,16 @@
 .containerHeader {
-    /* display: flex;
-    flex-flow: row;
-    align-items: center;
-    height: 100%;
-    margin-top: 0;
-    justify-content: center; */
     background-color: transparent;
-    /* background-color: #FCF5EB; */
-    /* background-color: lightgray; */
     overflow: hidden;
     position: absolute; 
     top: 0;
+<<<<<<< HEAD
     width: 100%; 
     z-index: 2000; 
     
    
+=======
+    width: 100%;  
+>>>>>>> b33a70248cf0f7ce671e9c7740d66ede1c48518f
 }
 
 .logonav {
@@ -23,40 +19,65 @@
 }
 
 .Cajalogo{
+    flex: 1;
     margin-top: 4%;
 }
 
 .navbar{
    display: flex;
+   flex: 5;
 }
-  
-.navbar .alternativas{
-   justify-content: space-around;
-    color: #ffffff;
-    background: transparent;
-    border: none;
+
+.menuPrincipal{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    color:#ffffff;
+    list-style: none;
+    cursor: pointer;
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     text-decoration: none;
     margin-top: 30px;
-    outline: none;
-    cursor: pointer;
+}
+
+.enlacePrincipal {
+    /* display: inline-block; */
+    display: block;
+    flex: 3;
+    flex-grow: 1;
+    justify-content: center;
+    min-width: 150px;
+}
+
+.enlacePrincipal:hover .alternativas {
+    display: block;
+}
+  
+.enlacePrincipal .alternativas{
+    display: none;
+    list-style: none;
+    position: absolute;
+    max-width: 300px;
+    height: auto;
+    background-color: #f2f2f2;
 }
   
 .opciones{
-    color:  #333333;;
+    color:  #333333;
     font-family: "Montserrat", sans-serif;
-    background-color: #f2f2f2;
-    size: 6px;
-   }
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+}
      
 .SocialContainer {
     display: flex;
-    /* justify-content: end; */
-    /* flex-flow: row ; */
-    /* height: 40px ; */
- }
+    flex: 1;
+}
 
  .SocialIcon{
     margin-top: 15px;
@@ -64,7 +85,7 @@
 }
 
 .BtnDonar {
-    flex: 1 1 auto;
+    flex: 1;
     filter: opacity(0.9);
     font-family: "Montserrat", sans-serif;
     border: none;
