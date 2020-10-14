@@ -3,10 +3,12 @@ import styles from "../Home/HomeProyectos.module.css";
 import icon1 from "../../img/HomeF_banco.png";
 import icon2 from "../../img/HomeF_escuela.png";
 import FlechaColor from "../../Components/FlechaColor";
+import HeaderSolid from "../../Components/HeaderSolid";
 
 const Proyectos = () => {
   return (
     <div className={styles.ContainerProyectos}>
+      <HeaderSolid />
       <div className={styles.CajatextoUno}>
         <h3>- Proyectos 2030 -</h3>
         <div className={styles.TextoImagen}>

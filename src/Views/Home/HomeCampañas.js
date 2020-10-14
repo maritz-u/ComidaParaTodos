@@ -3,10 +3,12 @@ import styles from "../Home/HomeCampañas.module.css";
 import FotoCaballero from "../../img/homeE.png";
 import BotonComoAportar from "../../Components/BotonComoAportar";
 import FlechaColor from "../../Components/FlechaColor";
+import HeaderSolid from "../../Components/HeaderSolid";
 
 const Campañas = () => {
   return (
     <div className={styles.CajaquintaPantalla}>
+      <HeaderSolid />
       <div className={styles.Cajatextos}>
         <h3>- Campañas en curso -</h3>
         <h1>CAMPAÑA SOLIDARIA</h1>

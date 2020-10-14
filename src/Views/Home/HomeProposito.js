@@ -6,10 +6,12 @@ import homeBIcon from "../../img/homeBIcon.png";
 import homeBIconB from "../../img/homeBIconB.png";
 import homeBIconC from "../../img/homeBIconC.png";
 import FlechaColor from "../../Components/FlechaColor";
+import HeaderSolid from "../../Components/HeaderSolid";
 
 const Proposito = () => {
   return (
     <div className={styles.cajaSegundaPantalla}>
+      <HeaderSolid />
       <div className={styles.boxPropositoText}>
         <div className={styles.text1}>
           <h3> - Comida para todos - </h3>

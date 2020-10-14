@@ -7,6 +7,7 @@ import icon3 from '../../img/homeB2icon3.png';
 import icon4 from '../../img/homeB2icon4.png';
 import icon5 from '../../img/homeB2icon5.png';
 import icon6 from '../../img/homeB2icon6.png';
+import HeaderSolid from "../../Components/HeaderSolid";
 
 
 
@@ -14,7 +15,7 @@ const Aportar = () => {
   return (
   
     <div className={styles.BigContainerAportar}>
-
+       <HeaderSolid />
       <div className={styles.cajaTextos}>
         <div className={styles.cajaTextos12}>
       <h3>- Súmate a nuestra red -</h3>

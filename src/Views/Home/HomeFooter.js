@@ -6,10 +6,12 @@ import InstagramW from "../../img/InstagramIconW.png";
 import TwitterW from "../../img/TwitterIconW.png"
 import MailW from "../../img/mailIconW.png";
 import FacebookW from "../../img/FacebookIconW.png";
+import HeaderSolid from "../../Components/HeaderSolid";
 
 const Footer = () => {
   return (
     <div className={styles.ContainerFooter}>
+      <HeaderSolid />
       <div className={styles.BoxColaboradores}>
         <div className={styles.TextoColaboradores}>
           <h3>- Agradecemos a toda nuestra red -</h3>

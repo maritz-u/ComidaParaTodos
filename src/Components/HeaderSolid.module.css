@@ -9,7 +9,7 @@
     /* background-color: #FCF5EB; */
     /* background-color: lightgray; */
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%; 
 }
