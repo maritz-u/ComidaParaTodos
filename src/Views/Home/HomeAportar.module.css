@@ -7,18 +7,18 @@
 }
 
 .cajaTextos{
-    padding-top: 30px;
+    padding-top: 5%;
     padding-left: 20px;
     flex-flow: column;
     
 }
 
 .cajaTextos12{
-    padding-top: -20px;
+    padding-top: -5px;
 
 }
 .cajaTextos123{
-    padding-top: -20px;
+    padding-top: -5px;
 
 }
 
@@ -82,12 +82,22 @@ h1{
 
 .CajatresBotones{
     display:flex;
-    flex-flow: row;  
+    flex-flow: row; 
+    margin-top: 5px;
 }
 
 img{
     float: left;
 }
+.FlechaAportar{
+    display: flex;
+}
+.CompartirSocial{
+padding-left: 1500%;
+
+}
+
+
 
 @media only screen 
 and (device-width : 375px) 
