@@ -11,6 +11,7 @@ import Icon6 from "../../img/homeB2icon6.png";
 import SumateHuertos from "../Sumate/SumateHuertos";
 import SumateTrabajemos from "../Sumate/SumateTrabajemos";
 import ReactFullpage from "@fullpage/react-fullpage";
+import Compartir from "../../Components/Compartir";
 
 const HomeSumate = () => (
   <ReactFullpage
@@ -65,7 +66,9 @@ const HomeSumate = () => (
                     <h4>Multiplica la ganancia y apadrina</h4>
                     <p>para instituciones y empresas públicas o privadas</p>
                   </a>
+               
                 </div>
+               
                 <div>
                   <button className={styles.Boton5}>
                     <img src={Icon5} alt=""></img>
@@ -84,9 +87,19 @@ const HomeSumate = () => (
                     <p> vives en una comunidad vulnerable </p>
                   </a>
                 </div>
-                <FlechaColor />
+               
               </div>
+           
             </div>
+            <div>
+            <div className={styles.CajaFlecha}>
+                  <FlechaColor />
+                  </div>
+                  <div className={styles.rrss}>
+                  <Compartir />
+                  </div>
+                  </div>
+                
           </div>
 
           <div className={"section"}>
