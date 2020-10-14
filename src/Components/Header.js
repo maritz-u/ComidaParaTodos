@@ -1,10 +1,12 @@
 import React from "react";
 import BigLogo from "./LogoXL";
 import styles from './Header.module.css';
+import FacebookC from '../img/FacebookIcon.png'
 import InstagramC from '../img/InstagramIcon.png';
 import TwitterC from '../img/TwitterIcon.png';
 import mailC from '../img/mailIcon.png';
 import { Link } from "react-router-dom";
+
 
 const Header = () => {
   return (
@@ -65,6 +67,7 @@ const Header = () => {
         </div>
        
         <div className={styles.SocialContainer}>
+        <img src={FacebookC} className={styles.SocialIcon} alt="Facebook"></img>
           <a href='https://www.instagram.com/comida_para_todos_cl/' target='_blank'>
             <img src={InstagramC} className={styles.SocialIcon} alt="Instagram" />
           </a>
