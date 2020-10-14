@@ -1,11 +1,13 @@
 .BoxPadre {
     background-image: url("../../img/Sumate-portada.png");
-    height: 432px;
-    width: 1650px;
+    background-size: contain ;
+    height: auto;
+    width: 100%;
     left: 0px;
     top: 0px;
     display: flex;
     flex-flow: column;
+    background-repeat: no-repeat;
 }
 
 .BoxTitulos{
@@ -17,8 +19,8 @@
 }
 
 .Boton1, .Boton2, .Boton3, .Boton4, .Boton5, .Boton6 {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border: none;
     border-radius: 50%;
     background: #FFFFFF;
@@ -31,6 +33,7 @@
     background-color: ivory;
     position: absolute;
     bottom: 0;
+    padding-top: 3%;
 }
 
 .CajaImgTextos{

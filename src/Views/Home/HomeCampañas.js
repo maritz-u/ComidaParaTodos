@@ -48,7 +48,7 @@ const Campañas = () => {
       </div>
       <div className={styles.CajaImgCaballero}>
         <img className={styles.ImgCaballero} src={FotoCaballero} alt=""></img>
-        <div>
+        <div className={styles.BotonCompartir}>
         <Compartir />
             </div>
       </div>

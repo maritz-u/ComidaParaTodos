@@ -14,7 +14,7 @@
     margin-left: 5px;
     margin-bottom: 10px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 7%;
 }
 
 .Cajatextos h1{
@@ -80,11 +80,22 @@
 
 .CajaImgCaballero{
     width: 53.8%;
+    height: 90%;
+}
+/* //El wiiiiiiiiidth!!!! */
+.ImgCaballero{
+    position: absolute;
+    /* width: 100%;
+    height: 100%;
+    padding-top: 10%; */
 }
 
-.ImgCaballero{
-    width: 100%;
+.BotonCompartir{
+    padding-top: 80%;
+    padding-left: 75%;
 }
+
+
 @media only screen 
 and (device-width : 375px) 
 and (device-height : 812px) 

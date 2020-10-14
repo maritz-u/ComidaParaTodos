@@ -84,9 +84,9 @@ const HomeSumate = () => (
                     <p> vives en una comunidad vulnerable </p>
                   </a>
                 </div>
+                <FlechaColor />
               </div>
             </div>
-            <FlechaColor />
           </div>
 
           <div className={"section"}>

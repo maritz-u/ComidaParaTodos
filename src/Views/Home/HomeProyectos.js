@@ -4,7 +4,8 @@ import icon1 from "../../img/HomeF_banco.png";
 import icon2 from "../../img/HomeF_escuela.png";
 import FlechaColor from "../../Components/FlechaColor";
 import HeaderSolid from "../../Components/HeaderSolid";
-import BanderasBlanco from "../../img/icon-banderas-rrss-blanco.png";
+import CompartirBlanco from "../../Components/CompartirBlanco";
+
 
 const Proyectos = () => {
   return (
@@ -59,7 +60,7 @@ const Proyectos = () => {
         <div className={styles.cajaBtn}>
           <button className={styles.btnProyectos}>Ver Proyecto </button>
         </div>
-        <img src={BanderasBlanco} className={styles.BanderasBlanco} alt="" />
+      <CompartirBlanco />
       </div>
     </div>
   );

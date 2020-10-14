@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Home/HomeFooter.module.css";
-import ImgColaboradores from "../../img/HomeG_logos.png";
+import ImgColaboradores from "../../img/HomeG_logos2.png";
 import ImgLogo from "../../img/LogoXL.png";
 import InstagramW from "../../img/InstagramIconW.png";
 import TwitterW from "../../img/TwitterIconW.png"
