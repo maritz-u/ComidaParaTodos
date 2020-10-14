@@ -136,6 +136,10 @@ h1{
     height: 40px
 }
 
+.IconRRSS:hover {
+    transform:scale(1.6);transform:scale(1.6);
+}
+
 @media only screen 
 and (device-width : 375px) 
 and (device-height : 812px) 
