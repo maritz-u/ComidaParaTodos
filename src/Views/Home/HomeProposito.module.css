@@ -67,6 +67,7 @@
     height: 100%;
     margin-left: 20px;
     padding-top: 50px;
+    
 }
 
 .imagenxL {
@@ -97,4 +98,12 @@
 .BoxFlecha{
      margin-left: 80%; 
    
+}
+
+.BtnCompartir{
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  margin-top: 79%;
+margin-left: 83%;
+  z-index: 2000;
 }
