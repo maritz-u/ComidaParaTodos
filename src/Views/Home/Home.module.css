@@ -12,7 +12,8 @@
     display: flex;
     flex-flow: column;
     align-self: flex-start;
-    margin-top: 30px;
+    margin-top: -5%;
+    padding-right: 20%;
 }
     
 .boxtextprincipal h1{
@@ -35,12 +36,9 @@
     margin-bottom: 5px;
 }
 .Flechaprimerapantalla{
-  padding-top: 5%;
+  padding-bottom: -20%;
+  margin-left: 45%;
 }
-
-.Flechaprimerapantalla{
-    margin-left: 45%;
- } 
  
  .compartir {
      /* position: fixed; */
@@ -57,6 +55,15 @@
 .Flechaprimerapantalla{
     padding-top: 10px;
 }
+
+.BtnCompartir {
+   display: flex;
+   margin-left: 20%;
+}
+
+
+
+
 
 @media only screen 
     and (device-width : 375px) 
