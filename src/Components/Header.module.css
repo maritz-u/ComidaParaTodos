@@ -3,14 +3,11 @@
     overflow: hidden;
     position: absolute; 
     top: 0;
-<<<<<<< HEAD
     width: 100%; 
     z-index: 2000; 
-    
-   
-=======
-    width: 100%;  
->>>>>>> b33a70248cf0f7ce671e9c7740d66ede1c48518f
+    width: 100%; 
+    z-index: 2000; 
+
 }
 
 .logonav {
