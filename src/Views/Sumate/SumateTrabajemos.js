@@ -4,6 +4,7 @@ import styles from "../Sumate/SumateTrabajemos.module.css";
 import sumateTrabaja from "../../img/sumate-trabaja.png";
 import IconOlla from "../../img/homeB2icon1.png";
 import HeaderSolid from "../../Components/HeaderSolid";
+import Compartir from '../../Components/Compartir';
 
 const SumateTrabajemos = () => {
   return (
@@ -68,41 +69,47 @@ const SumateTrabajemos = () => {
                 <p>Sector donde quieres trabajar</p>
                 <input className={styles.InputTrabajemos} type="text"></input>
               </div>
-              <div>
+               {/* <div>
                 <p>Especificaciones/comentarios</p>
                 <textarea className={styles.InputTrabajemos} type="text"></textarea>
+                <br></br>
+                <br></br>
+                </div> */}
                 <br></br>
                 <br></br>
                 <div>
                   <button className={styles.BtnTrabajar}>Quiero trabajar</button>
                   <a href=""> ¿A dónde va mi aporte?</a>
-                </div>
               </div>
             </div>
           </div>
-          <div className={styles.CajaTexto}>
-            <div className={styles.CajaTexto2} >
+        </div>
 
-
-              <h4>  Únete a nuestro modelo de economía</h4>
-              <h4>  circular y genera mayor impacto: </h4>
-              <div>  <span>+</span> Compromiso social  </div>
-              <div>  <span>+</span> Re activación de la actividad.  </div>
-              <div> <span>+</span> Estabilidad económica.  </div>
-              <div> <span>+</span> Fuente de ingresos.  </div>
-              <div> <span>+</span> Fortalecimiento de sus redes  </div>
-              <div>   <span>+</span> Estabilidad económica.  </div>
-              <div>   <span>+</span> Fuente de ingresos.  </div>
-              <div>  <span>+</span> Re activación de la actividad.  </div>
-            </div>
-            <div>
-              <FlechaColor />
-            </div>
-          </div>
+      </div>
+      <div className={styles.CajaTexto}>
+        {/* <div className={styles.CajaTexto2} > */}
+        <h4>  Únete a nuestro modelo de economía</h4>
+        <h4>  circular y genera mayor impacto: </h4>
+        <br></br>
+        <div>  <span>+</span> Compromiso social  </div>
+        <div>  <span>+</span> Re activación de la actividad.  </div>
+        <div> <span>+</span> Estabilidad económica.  </div>
+        <div> <span>+</span> Fuente de ingresos.  </div>
+        <div> <span>+</span> Fortalecimiento de sus redes  </div>
+        <div>   <span>+</span> Estabilidad económica.  </div>
+        <div>   <span>+</span> Fuente de ingresos.  </div>
+        <div>  <span>+</span> Re activación de la actividad.  </div>
+        {/* </div> */}
+        <div className={styles.FlechaTrabajadora}>
+          <FlechaColor />
         </div>
       </div>
+
       <div className={styles.SegundoContenedor} >
         <img className={styles.ImgOlla} src={sumateTrabaja} alt=""></img>
+        <div className={styles.SegundoCompartir}>
+          <Compartir />
+        </div>
       </div>
     </div>
   );

@@ -79,20 +79,20 @@
 }
 
 .CajaImgCaballero{
-    width: 53.8%;
+    width: 50%;
     height: 90%;
 }
 /* //El wiiiiiiiiidth!!!! */
 .ImgCaballero{
-    position: absolute;
-    /* width: 100%;
+    /* position: absolute; */
+    width: 100%;
     height: 100%;
-    padding-top: 10%; */
+    padding-top: 10%;
 }
 
 .BotonCompartir{
-    padding-top: 80%;
-    padding-left: 75%;
+    padding-top: 86.5%;
+    padding-left: 80%;
 }
 
 

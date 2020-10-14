@@ -1,16 +1,18 @@
 import React from "react";
 import styles from './HeaderSolid.module.css';
+import FacebookC from '../img/FacebookIcon.png'
 import InstagramC from '../img/InstagramIcon.png';
 import TwitterC from '../img/TwitterIcon.png';
 import mailC from '../img/mailIcon.png';
-import BigLogo from "./LogoXL";
+
+import LogoPalabra from "./LogoPalabra";
 
 const HeaderSolid = () => {
   return (
     <div className={styles.containerHeader}>
       <div className={styles.logonav}>
         <div className={styles.Cajalogo}>
-          <BigLogo />
+          <LogoPalabra/>
         </div>
 
         <div className={styles.navbar}>
@@ -64,6 +66,7 @@ const HeaderSolid = () => {
         </div>
        
         <div className={styles.SocialContainer}>
+        <img src={FacebookC} className={styles.SocialIcon} alt="Facebook"></img>
           <a href='https://www.instagram.com/comida_para_todos_cl/' target='_blank'>
             <img src={InstagramC} className={styles.SocialIcon} alt="Instagram" />
           </a>

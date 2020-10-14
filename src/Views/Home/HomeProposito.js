@@ -66,7 +66,10 @@ const Proposito = () => {
 
       <div className={styles.contenedorImagenXL}>
         <img className={styles.imagenxL} src={homeBinfo} alt="" />
+        <div className={styles.BtnCompartir}>
         <Compartir/>
+        </div>
+        
   
   </div>
 

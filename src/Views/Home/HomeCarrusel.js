@@ -7,24 +7,38 @@ import Carrusel4 from "../../img/carrusel4b.png";
 import Compartir from '../../Components/Compartir';
 
 
+
 const Carrusel = () => {
     return (
-        
+
         <div className={"section"} >
             <Header />
             <div className={"slide"}>
-                <img src={Carrusel1} style={{height: "100vh",width:"100%"}} alt="" />
+                <img src={Carrusel1} style={{ height: "100vh", width: "100%" }} alt="" />
+                <div style={{ zIndex: "2000", paddingTop: "42.5%", marginLeft: "90.5%" }}>
+                    <Compartir />
+                </div>
             </div>
             <div className={"slide"}>
-                <img src={Carrusel2} style={{height: "100vh", width:"100%"}} alt="" />
+                <img src={Carrusel2} style={{ height: "100vh", width: "100%" }} alt="" />
+                <div style={{ zIndex: "2000", paddingTop: "42.5%", marginLeft: "90.5%" }}>
+                    <Compartir />
+                </div>
             </div>
             <div className={"slide"}>
-                <img src={Carrusel3} style={{height: "100vh",width:"100%"}} alt="" />
+                <img src={Carrusel3} style={{ height: "100vh", width: "100%" }} alt="" />
+                <div style={{ zIndex: "2000", paddingTop: "42.5%", marginLeft: "90.5%" }}>
+                    <Compartir />
+                </div>
             </div>
             <div className={"slide"}>
-                <img src={Carrusel4} style={{height: "100vh",width:"100%"}} alt="" />
+                <img src={Carrusel4} style={{ height: "100vh", width: "100%" }} alt="" />
+                <div style={{ zIndex: "2000", paddingTop: "42.5%", marginLeft: "90.5%" }}>
+                    <Compartir />
+                </div>
             </div>
-            <Compartir/>
+
+
         </div>
     );
 };

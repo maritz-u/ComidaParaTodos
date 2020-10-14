@@ -4,6 +4,7 @@ import styles from "../Sumate/SumateHuertos.module.css";
 import FotoHuertos from "../../img/sumate-huertos.png";
 import IconoHuerto1 from "../../img/homeB2icon4.png";
 import HeaderSolid from "../../Components/HeaderSolid";
+import Compartir from '../../Components/Compartir';
 const SumateHuertos = () => {
     return (
         <div className={styles.ContainerHuerto}>
@@ -37,7 +38,7 @@ const SumateHuertos = () => {
 
                         <div>
                             <p>Ubicación del huerto urbano</p>
-                            <input className={styles.InputHuerto} type="text"></input>
+                            <input className={styles.InputHuerto3} type="text"></input>
                         </div>
                         
                         <div>
@@ -85,6 +86,9 @@ const SumateHuertos = () => {
             <div className={styles.BoxHuerto3}>
                 <div className={styles.ImgHuerto}>
                     <img className={styles.SumaHuerto} src={FotoHuertos} alt="" />
+                    <div className={styles.CompartirHuerto}>
+                     <Compartir/>
+                    </div>
                 </div>
             </div>
         </div>
