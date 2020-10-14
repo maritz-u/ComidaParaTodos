@@ -104,3 +104,8 @@
 .BtnDonar:hover {
     background-color: blueviolet;
 }
+
+.SocialIcon:hover{
+    /* box-shadow: 0px 0px 10px 10px #ffffff; */
+    transform:scale(1.6);transform:scale(1.6)
+}
