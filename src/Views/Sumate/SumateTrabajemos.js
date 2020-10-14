@@ -3,10 +3,12 @@ import FlechaColor from "../../Components/FlechaColor";
 import styles from "../Sumate/SumateTrabajemos.module.css";
 import sumateTrabaja from "../../img/sumate-trabaja.png";
 import IconOlla from "../../img/homeB2icon1.png";
+import HeaderSolid from "../../Components/HeaderSolid";
 
 const SumateTrabajemos = () => {
   return (
     <div className={styles.CajaCompleta}>
+      <HeaderSolid />
       <div className={styles.PrimerContenedor}>
         <div className={styles.PrimerContenedor1}>
 
