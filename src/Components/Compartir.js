@@ -7,8 +7,7 @@ const Compartir = () => {
         <div>
             <div className={styles.compartir}>
               
-                    <img src={banderas} className={styles.iconsBotton}  alt='' />
-                  
+                 <img src={banderas} className={styles.iconsBotton}  alt='' />     
                
             </div>
         </div>

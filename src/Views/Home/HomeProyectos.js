@@ -4,6 +4,7 @@ import icon1 from "../../img/HomeF_banco.png";
 import icon2 from "../../img/HomeF_escuela.png";
 import FlechaColor from "../../Components/FlechaColor";
 import HeaderSolid from "../../Components/HeaderSolid";
+import Compartir from "../../Components/Compartir";
 
 const Proyectos = () => {
   return (
@@ -58,6 +59,7 @@ const Proyectos = () => {
         <div className={styles.cajaBtn}>
           <button className={styles.btnProyectos}>Ver Proyecto </button>
         </div>
+        <Compartir/>
       </div>
     </div>
   );

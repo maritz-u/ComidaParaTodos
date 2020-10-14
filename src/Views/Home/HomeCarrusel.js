@@ -4,6 +4,8 @@ import Carrusel1 from "../../img/carrusel1b.png";
 import Carrusel2 from "../../img/carrusel2b.png";
 import Carrusel3 from "../../img/carrusel3b.png";
 import Carrusel4 from "../../img/carrusel4b.png";
+import Compartir from '../../Components/Compartir';
+
 
 const Carrusel = () => {
     return (
@@ -22,6 +24,7 @@ const Carrusel = () => {
             <div className={"slide"}>
                 <img src={Carrusel4} style={{height: "100vh",width:"100%"}} alt="" />
             </div>
+            <Compartir/>
         </div>
     );
 };

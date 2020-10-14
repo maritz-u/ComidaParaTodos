@@ -7,6 +7,8 @@ import homeBIconB from "../../img/homeBIconB.png";
 import homeBIconC from "../../img/homeBIconC.png";
 import FlechaColor from "../../Components/FlechaColor";
 import HeaderSolid from "../../Components/HeaderSolid";
+import Compartir from '../../Components/Compartir';
+
 
 const Proposito = () => {
   return (
@@ -64,7 +66,9 @@ const Proposito = () => {
 
       <div className={styles.contenedorImagenXL}>
         <img className={styles.imagenxL} src={homeBinfo} alt="" />
-      </div>
+        <Compartir/>
+  
+  </div>
 
         
       
