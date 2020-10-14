@@ -3,9 +3,11 @@ import FlechaColor from "../../Components/FlechaColor";
 import styles from "../Sumate/SumateHuertos.module.css";
 import FotoHuertos from "../../img/sumate-huertos.png";
 import IconoHuerto1 from "../../img/homeB2icon4.png";
+import HeaderSolid from "../../Components/HeaderSolid";
 const SumateHuertos = () => {
     return (
         <div className={styles.ContainerHuerto}>
+            <HeaderSolid />
             <div className={styles.BoxHuerto1}>
                 <div className={styles.TextoHuerto} >
                     <h3>- Súmate a nuestra red -</h3>
