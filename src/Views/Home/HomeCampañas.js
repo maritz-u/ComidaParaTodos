@@ -4,6 +4,8 @@ import FotoCaballero from "../../img/homeE.png";
 import BotonComoAportar from "../../Components/BotonComoAportar";
 import FlechaColor from "../../Components/FlechaColor";
 import HeaderSolid from "../../Components/HeaderSolid";
+import Compartir from '../../Components/Compartir';
+
 
 const Campañas = () => {
   return (
@@ -46,6 +48,9 @@ const Campañas = () => {
       </div>
       <div className={styles.CajaImgCaballero}>
         <img className={styles.ImgCaballero} src={FotoCaballero} alt=""></img>
+        <div>
+        <Compartir />
+            </div>
       </div>
 
     </div>

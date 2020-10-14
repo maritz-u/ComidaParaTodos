@@ -48,18 +48,18 @@ const SumateTrabajemos = () => {
         </div>
         <div className={styles.PrimerContenedor2}>
           <div className={styles.FormularioYtxto}>
-            
+
             <p>Nombre</p>
             <input className={styles.InputTrabajemos} type="text"></input>
             <div className={styles.Contactotrabajemos} >
               <div>
-            <p>Número de Contacto</p>
-            <input className={styles.InputTrabajemos} type="text"></input>
-            </div>
-            <div>
-            <p>Correo Electrónico</p>
-            <input className={styles.InputTrabajemos} type="text"></input>
-            </div>
+                <p>Número de Contacto</p>
+                <input className={styles.InputTrabajemos} type="text"></input>
+              </div>
+              <div>
+                <p>Correo Electrónico</p>
+                <input className={styles.InputTrabajemos} type="text"></input>
+              </div>
             </div>
             <div >
               <div>
@@ -72,27 +72,26 @@ const SumateTrabajemos = () => {
                 <br></br>
                 <br></br>
                 <div>
-                <button className={styles.BtnTrabajar}>Quiero trabajar</button>
-                 <a href=""> ¿A dónde va mi aporte?</a>
+                  <button className={styles.BtnTrabajar}>Quiero trabajar</button>
+                  <a href=""> ¿A dónde va mi aporte?</a>
                 </div>
               </div>
             </div>
           </div>
           <div className={styles.CajaTexto}>
-<div  className={styles.CajaTexto2} >
-  
+            <div className={styles.CajaTexto2} >
 
-            <h4>  Únete a nuestro modelo de economía</h4>
-            <h4>  circular y genera mayor impacto: </h4>
-         
-            <p> <span>+</span> Compromiso social</p>
-            <p> <span>+</span> Re activación de la actividad.</p>
-            <p> <span>+</span> Estabilidad económica.</p>
-            <p> <span>+</span> Fuente de ingresos.</p>
-            <p> <span>+</span> Fortalecimiento de sus redes</p>
-            <p> <span>+</span> Estabilidad económica.</p>
-            <p> <span>+</span> Fuente de ingresos.</p>
-            <p> <span>+</span> Re activación de la actividad.</p>
+
+              <h4>  Únete a nuestro modelo de economía</h4>
+              <h4>  circular y genera mayor impacto: </h4>
+              <div>  <span>+</span> Compromiso social  </div>
+              <div>  <span>+</span> Re activación de la actividad.  </div>
+              <div> <span>+</span> Estabilidad económica.  </div>
+              <div> <span>+</span> Fuente de ingresos.  </div>
+              <div> <span>+</span> Fortalecimiento de sus redes  </div>
+              <div>   <span>+</span> Estabilidad económica.  </div>
+              <div>   <span>+</span> Fuente de ingresos.  </div>
+              <div>  <span>+</span> Re activación de la actividad.  </div>
             </div>
             <div>
               <FlechaColor />

@@ -8,6 +8,7 @@ import MailW from "../../img/mailIconW.png";
 import FacebookW from "../../img/FacebookIconW.png";
 import HeaderSolid from "../../Components/HeaderSolid";
 
+
 const Footer = () => {
   return (
     <div className={styles.ContainerFooter}>
