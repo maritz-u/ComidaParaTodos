@@ -38,7 +38,7 @@ const Proposito = () => {
             de las contingencias.
           </p>
           
-        
+         <br></br>
           <img className={styles.Img1}  src={homeBIconB} alt="" />
           <p>
             Educar en materias de alimentación saludable, para fomentar la
@@ -46,7 +46,7 @@ const Proposito = () => {
           </p>
           <br></br>
           <p>
-          <img className={styles.Img1}  src={homeBIconC} alt="" />
+          <img className={styles.Img2}  src={homeBIconC} alt="" />
           
             Capacitar en materias de gastronomía a las comunidades y de esta
             manera generar oportunidades.

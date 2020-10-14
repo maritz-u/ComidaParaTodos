@@ -83,15 +83,13 @@ const Aportar = () => {
         
         <div className={styles.FlechaAportar}>
         <FlechaColor />
-        <div>
+        <div className={styles.CompartirSocial}>
         <Compartir />
             </div>
+  
         </div>
        
         </div>
-        
-        
-     
         
 
     </div>
