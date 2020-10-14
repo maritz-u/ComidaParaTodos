@@ -47,7 +47,7 @@ const Home = () => (
             <div className={styles.Flechaprimerapantalla}>
               <Flecha />
             </div>
-            <div>
+            <div className={styles.BtnCompartir}>
             <Compartir />
             </div>
          

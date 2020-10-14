@@ -12,7 +12,8 @@
     display: flex;
     flex-flow: column;
     align-self: flex-start;
-    margin-top: 30px;
+    margin-top: 4%;
+    padding-right: 20%;
 }
     
 .boxtextprincipal h1{
@@ -21,7 +22,9 @@
     width: 100%;
     font-family: "Montserrat", sans-serif !important;
     padding-left: 10%;
-    font-size: 60px !important;
+    font-size: 64px !important;
+      /* padding-bottom: -50px; */
+      margin-bottom: 12px;
 }
     
 .boxtextprincipal h3{
@@ -35,12 +38,9 @@
     margin-bottom: 5px;
 }
 .Flechaprimerapantalla{
-  padding-top: 5%;
+  padding-bottom: -20%;
+  margin-left: 45%;
 }
-
-.Flechaprimerapantalla{
-    margin-left: 45%;
- } 
  
  .compartir {
      /* position: fixed; */
@@ -51,12 +51,22 @@
  }
  
 .btncomofunciona{
+    margin-top: 5%;
     margin-left: 10%;
 }
 
 .Flechaprimerapantalla{
-    padding-top: 10px;
+    padding-top: 5%;
 }
+
+.BtnCompartir {
+   display: flex;
+   margin-left: 20%;
+}
+
+
+
+
 
 @media only screen 
     and (device-width : 375px) 
