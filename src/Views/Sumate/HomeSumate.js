@@ -28,7 +28,11 @@ const HomeSumate = () => (
             <div className={styles.BoxTitulos}>
               <h3>- Súmate a nuestra red solidaria -</h3>
               <h1>ES HORA DE ACTUAR, ¡JUNTOS!</h1>
+              <div className={styles.rrss}>
+                  <Compartir />
+                  </div>
             </div>
+           
             <div className={styles.ContainerTextos}>
               <div className={styles.CajaImgTextos}>
                 <div>
@@ -95,9 +99,7 @@ const HomeSumate = () => (
             <div className={styles.CajaFlecha}>
                   <FlechaColor />
                   </div>
-                  <div className={styles.rrss}>
-                  <Compartir />
-                  </div>
+                 
                   </div>
                 
           </div>
