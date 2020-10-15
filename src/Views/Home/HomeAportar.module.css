@@ -1,0 +1,200 @@
+.BigContainerAportar{
+   display: flex;
+   flex-flow: column;
+   background-color:  #FCF5EB;
+   height: 100vh;
+   width: 100%;
+}
+
+.cajaTextos{
+    padding-top: 5%;
+    padding-left: 20px;
+    flex-flow: column;
+    
+}
+
+.cajaTextos12{
+    padding-top: -5px;
+
+}
+.cajaTextos123{
+    padding-top: -5px;
+
+}
+
+ h3{
+    font-family: Lora ;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+   
+ }
+
+.BoxBotones{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    left: 507px;
+    top: 286px;    
+}
+
+.Boton1, .Boton2, .Boton3, .Boton4, .Boton5, .Boton6{
+    background-color: #FFFF;
+    height: 180px;
+    width: 427px;
+    left: 40px;
+    top: 286px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    margin: 20px ;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.BoxBotones a{
+    text-decoration: none;
+    font-family: Montserrat ;
+    color: #333333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.CajatresBotones{
+    display:flex;
+    flex-flow: row; 
+    margin-top: 5px;
+}
+
+img{
+    float: left;
+}
+.FlechaAportar{
+    display: flex;
+}
+.CompartirSocial{
+padding-top: 17%;
+margin-left: 90%;
+
+}
+
+
+
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3){
+    .BigContainerAportar{
+        display: flex;
+        flex-flow: column;
+        background-color:  #FCF5EB;
+        width: 100%;
+        
+     }
+     h3{
+        font-family: Lora ;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 200;
+        line-height: 31px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    
+     h1{
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0px;
+        text-align: left;   
+     }
+
+     .BoxBotones{
+        display:flex;
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        left: 400px;
+        top: 250px;
+        
+    }.CajatresBotones{
+        display:flex;
+        flex-flow: column;
+       
+        
+        
+    }
+
+    .Boton1, .Boton2, .Boton3, .Boton4, .Boton5, .Boton6{
+        background-color: #FFFF;
+        height: 150px;
+        width: 350px;
+        left: 20px;
+        top: 250px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+        margin: 10px ;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    h4{font-size: 13px;
+
+    }
+    p{font-size: 12px;
+    margin-top: -15px;
+
+
+    }
+
+    .Boton5, .Boton6{
+    display: none;
+
+
+    }
+    .FlechaAportar{
+    display: flex;
+    margin-top: 10%;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

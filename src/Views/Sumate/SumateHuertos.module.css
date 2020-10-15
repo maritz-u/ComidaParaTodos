@@ -1,0 +1,186 @@
+.ContainerHuerto{
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
+    background-color: #fcf5eB;
+}
+
+.BoxHuerto1{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    height: 100%;
+    margin-top: 7%;
+}
+
+.TextoHuerto{
+    flex-flow: column;
+    margin-left: 20px;
+    line-Height:20px;
+}
+
+.TextoHuerto2 p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left; 
+    margin: 0;
+   
+
+}
+
+.textos{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.TextH1huerto{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.FormularioHuerto{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    width: 80%;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: -10px;
+}
+ 
+
+.InputHuerto{
+    height: 40px;
+    width: 500px;
+    left: 40px;
+    top: 279px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+}
+
+.InputHuerto00{
+    height: 40px;
+    width: 200px;
+    left: 40px;
+    top: 279px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;  
+    margin-right: 10PX;  
+}
+.InputHuerto3{
+    height: 40px;
+    width: 220px;
+    left: 40px;
+    top: 279px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;  
+    margin-right: 10PX
+
+
+}
+
+
+
+.TextoImagenHuerto{
+    display: flex;
+    flex-direction: row;
+    margin-top: -45px;   
+}
+
+.TextoIconoHuerto{
+    margin-top: -40px;
+}
+
+.HuertoUbicacion{
+    display: flex;
+    flex-flow: row;
+    /* justify-content: space-between */
+}
+
+.HuertoUbicacion p {
+    display: inline;
+}
+
+.BtonHuerto{
+    display: flex;
+    flex-flow: row;
+    margin-left:20px; 
+    align-items: center;
+    color: #ff5920;
+}
+
+.btnDonarH{
+    flex: 1 1 auto;
+    font-family: "Montserrat", sans-serif !important ;
+    border: 2px solid #ff5920;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color:  #ff5920;
+    height: 45px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.BoxHuerto2{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 20px; 
+    padding-top: 16%;
+}
+
+.FlechaHuerto{
+text-align: center;
+display: flex;
+padding-top: 15%;
+padding-left: 22%;
+
+}
+
+.BoxHuerto3{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    height: 100%;
+}
+
+.SumaHuerto{
+width: 100%;
+}
+.CompartirHuerto{
+ z-index: 2000;
+ padding-top:140%;
+ margin-left: 65%;
+
+}
+
+
+
+

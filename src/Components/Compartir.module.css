@@ -1,0 +1,13 @@
+
+.iconsBotton{
+    height: 80px;
+}
+
+
+
+ .compartir {
+    position: absolute; 
+    z-index: 2000;
+    margin-bottom: 5%;
+    margin-right: 0;
+}  

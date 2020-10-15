@@ -1,0 +1,13 @@
+.LogoXL{
+    flex: 1 1 auto;
+    display: flex;
+    height: 90px;
+    width: 150px;
+    margin-top: -60px;
+    padding-left: 20px;
+}
+
+
+.LogoXL img{
+    height: 100%
+}

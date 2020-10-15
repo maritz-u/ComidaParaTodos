@@ -1,0 +1,117 @@
+.containerFirstView {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-image: url("../../img/HeaderMujer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.boxtextprincipal{
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    margin-top: 4%;
+    padding-right: 20%;
+}
+    
+.boxtextprincipal h1{
+    color: #ffffff;
+    height: 20px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif !important;
+    padding-left: 10%;
+    font-size: 64px !important;
+      /* padding-bottom: -50px; */
+      margin-bottom: 12px;
+}
+    
+.boxtextprincipal h3{
+    font-family: 'Lora', serif !important;
+    font-size: 32px !important;
+    color: #ffffff;
+    height:auto;
+    width: 748px;
+    padding-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5px;
+}
+.Flechaprimerapantalla{
+  padding-bottom: -20%;
+  margin-left: 45%;
+}
+ 
+ .compartir {
+     /* position: fixed; */
+     bottom: 5%;
+     right: 0;
+     width: 300px;
+     /* z-index: 2000;    */
+ }
+ 
+.btncomofunciona{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.Flechaprimerapantalla{
+    padding-top: 5%;
+}
+
+.BtnCompartir {
+   
+   margin-left: 90%;
+  
+}
+
+
+
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+.containerFirstView{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-image: url("../../img/HeaderMujer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.boxtextprincipal{
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.boxtextprincipal h1{
+    color: #ffffff;
+    height: 5px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif !important;
+    padding-left: 10%;
+    font-size: 20px !important;
+}
+ .boxtextprincipal h3{
+    font-family: 'Lora', serif !important;
+    font-size: 15px !important;
+    color: #ffffff;
+    height:auto;
+    width: 500px;
+    padding-left: 10%;
+    margin-top: 15%;
+    margin-bottom: 5px;
+}
+
+    }
+   
