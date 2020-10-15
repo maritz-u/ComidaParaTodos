@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Home/HomeCampañas.module.css";
-import FotoCaballero from "../../img/homeE.png";
+import FotoCaballero from "../../img/hombre-02.png";
 import BotonComoAportar from "../../Components/BotonComoAportar";
 import FlechaColor from "../../Components/FlechaColor";
 import HeaderSolid from "../../Components/HeaderSolid";

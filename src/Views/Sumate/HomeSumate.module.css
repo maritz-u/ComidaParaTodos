@@ -6,14 +6,21 @@
     display: flex;
     flex-flow: column;
     background-repeat: no-repeat;
+    padding-bottom: 15%;
 }
 
 .BoxTitulos{
     color: white;
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-top: 6%;
 }
 .BoxTitulos h1{
     color: white;
+    font-size: 60px;
+}
+
+.BoxTitulos h3 {
+    font-size: 32px;
 }
 
 .Boton1, .Boton2, .Boton3, .Boton4, .Boton5, .Boton6 {
@@ -33,8 +40,11 @@
     display:flex;
     justify-content: space-between;
     background-color: ivory;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .CajaImgTextos{
@@ -59,4 +69,13 @@
     line-height: 24px;
     text-align: left;
     color: #333333;
+}
+
+.rrss{
+    margin-left: 90%;
+    padding-bottom: 5%;
+}
+
+.CajaFlecha{
+   margin-left: 50%;
 }
